@@ -97,9 +97,34 @@ file wins and the PDF should be regenerated/updated to match.
 
 At the start of every session:
 1. Read `context/company.md` and `context/team.md`.
-2. Read `docs/growth-budget-plan-aug26-jan27.md` — at minimum Part A (numbers) and whichever
+2. Read `MEMORY.md` — learned preferences from past sessions.
+3. Read `docs/growth-budget-plan-aug26-jan27.md` — at minimum Part A (numbers) and whichever
    week in Part C is current, plus Part E (actual spend) to know where things really stand.
-3. Use both to answer, plan, or brainstorm — never ask Adi to re-explain what's already written.
+4. Use all of it to answer, plan, or brainstorm — never ask Adi to re-explain what's already
+   written or already known about how he works.
+
+---
+
+## Memory System
+
+`MEMORY.md` holds preferences, corrections, and facts learned from past sessions — the same
+role it plays in the Executive-Assistant repo. Update it in place when Adi corrects you or
+states a new preference mid-session, same as ever.
+
+**On top of that, it updates itself automatically.** A `SessionEnd` hook
+(`.claude/settings.json` → `.claude/hooks/update-memory.sh`) fires whenever a Claude Code
+session in this repo ends — including just closing the laptop, no "we're done" needed. It reads
+that session's transcript, pulls out anything new worth remembering, and updates `MEMORY.md` in
+place (committing just that file, locally — it never pushes on its own). Adi never has to ask
+for this or remember to do it.
+
+Notes on the mechanism:
+- It fires per-machine, per-session — it needs `claude` and `jq` on PATH wherever Adi is running
+  Claude Code for this repo.
+- It only ever touches `MEMORY.md`. Plan/budget changes always go in
+  `docs/growth-budget-plan-aug26-jan27.md` instead — see "The Holy Grail" above.
+- It fails silently and safely: if anything about the environment is missing or broken, the
+  session still closes normally and nothing is written.
 
 ---
 
