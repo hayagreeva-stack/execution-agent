@@ -87,7 +87,8 @@ file wins and the PDF should be regenerated/updated to match.
 - No excessive headers for short answers.
 
 **Ground rules baked into the plan (don't relitigate these unless Adi raises it)**
-- ₹15,00,000 hard ceiling. Aug 1, 2026 launch. Pincode 400050 only. 100% consignment stock.
+- ₹15,00,000 hard ceiling. Aug 1, 2026 launch. Pincode 400050 only. Primarily consignment stock,
+  with a few brands sold to us outright (NOT 100% consignment — confirmed Jul 23, 2026).
 - Driver + Adi deliver — not a cost line.
 - Influencer barter is dead (0 takers). Paid nano-influencers only, ₹15,000/month (2–3 collabs).
 - No offline events. Creative = Adi + AI + Avirup — no agencies, no shoots.

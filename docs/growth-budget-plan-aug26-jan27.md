@@ -2,7 +2,7 @@
 
 **How to use this document:** Part A is the numbers (budget, targets). Part B is your standing routine — the things you do every day/week without thinking. Part C is the week-by-week instruction set — open it Monday morning, do the tasks in order, check the goal on Sunday night. Part D is the kill rules. If a week's goal is missed, Part D tells you what to change; otherwise never deviate.
 
-**Ground rules baked in:** ₹15,00,000 hard ceiling. Aug 1 launch. Pincode 400050 only. 100% consignment stock. Driver + Adi deliver (not a cost). **Influencers: barter is dead (0 takers) — but PAID nano-influencers are in at ₹15,000/month (2–3 collabs).** No offline events. Creative = Adi + AI + Avirup, no agencies, no shoots. **The app is the ONLY storefront — there is no WhatsApp catalog.** All ordering happens in the app; WhatsApp is used strictly for broadcasts, support, feedback, and win-back — every WhatsApp message drives people INTO the app, never to order over chat.
+**Ground rules baked in:** ₹15,00,000 hard ceiling. Aug 1 launch. Pincode 400050 only. Primarily consignment stock, with a few brands sold to us outright (NOT 100% consignment — confirmed Jul 23, 2026; e.g. the ₹18k Ray Health buy). Driver + Adi deliver (not a cost). **Influencers: barter is dead (0 takers) — but PAID nano-influencers are in at ₹15,000/month (2–3 collabs).** No offline events. Creative = Adi + AI + Avirup, no agencies, no shoots. **The app is the ONLY storefront — there is no WhatsApp catalog.** All ordering happens in the app; WhatsApp is used strictly for broadcasts, support, feedback, and win-back — every WhatsApp message drives people INTO the app, never to order over chat.
 
 ---
 
@@ -323,7 +323,7 @@ Cumulative projected: ₹0 · Cumulative actual (paid): ₹0 · Cumulative varia
 |---|---|---|---|---|
 | Jul 22 | Inventory — Ray Health | Other / Inventory (⚠ not a Part C category — see flag below) | ₹18,000 | Pending (quoted, not yet paid) |
 
-**⚠ Flag:** this is a straight inventory purchase, not consignment. Ground rules (top of doc) assume **100% consignment stock** — no upfront cash for inventory. ₹18,000 here doesn't map to any Part A/C budget line and isn't covered by the ₹15L growth/ops ceiling math. Confirm with Adi whether this is a one-off exception (e.g. minimum order qty from this brand) or a shift away from consignment-only sourcing — worth deciding before it becomes a pattern.
+**⚠ Flag (RESOLVED Jul 23, 2026):** this is a straight inventory purchase, not consignment. Adi confirmed the model is **primarily consignment with a few brands sold to us outright** — so this is an accepted exception, not a deviation. Still note: this ₹18,000 doesn't map to any Part A/C budget line and isn't covered by the ₹15L growth/ops ceiling math; track outright-purchase inventory spend separately from the growth budget.
 
 ### Week 1 (Aug 1–7) — Launch
 Projected: ₹30,000 · Actual (paid): ₹0 · Committed (pending): ₹4,400 · Variance: ₹0
