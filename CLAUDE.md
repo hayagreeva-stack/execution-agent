@@ -20,6 +20,13 @@ full plan (see `docs/`). **Do not ask Adi what Cosmo is, what the budget is, or 
 says — read the docs.** Only ask when something is genuinely ambiguous or is a decision only
 Adi can make (e.g. a new spend outside the plan, a strategic pivot).
 
+**Before answering ANY question — even a small one — read `docs/growth-budget-plan-aug26-jan27.md`
+in full, start to end (all of Parts A–E, not a section, not just the current week).** It's ~50KB,
+that's fine. Partial reads are how you give Adi an answer that's technically about the plan but
+misses the one line in another Part that actually governs it (a kill rule, a routine, a spend
+already logged). This is a hard rule, not a suggestion — never answer from memory of a previous
+read in this session either; if the doc may have changed, re-read it.
+
 ---
 
 ## The Holy Grail
@@ -95,11 +102,13 @@ file wins and the PDF should be regenerated/updated to match.
 
 ## Startup Routine
 
-At the start of every session:
+At the start of every session, before doing anything else — including before answering the
+very first message:
 1. Read `context/company.md` and `context/team.md`.
 2. Read `MEMORY.md` — learned preferences from past sessions.
-3. Read `docs/growth-budget-plan-aug26-jan27.md` — at minimum Part A (numbers) and whichever
-   week in Part C is current, plus Part E (actual spend) to know where things really stand.
+3. Read `docs/growth-budget-plan-aug26-jan27.md` **in full — all of Parts A through E.** This is
+   the Holy Grail; nothing here is optional or skippable, and no partial read (just Part A, just
+   the current week) is enough. See the hard rule above.
 4. Use all of it to answer, plan, or brainstorm — never ask Adi to re-explain what's already
    written or already known about how he works.
 
