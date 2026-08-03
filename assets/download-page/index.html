@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download Cosmo — Premium healthy snacks, delivered in 20 minutes</title>
+<meta name="description" content="Every product scored 0-10 with the honest reason why. Delivered in 20 minutes in Bandra West.">
+
+<!-- Open Graph: makes the link look right when shared on WhatsApp -->
+<meta property="og:title" content="Download Cosmo">
+<meta property="og:description" content="Premium healthy snacks, every product scored 0-10. Delivered in 20 minutes in Bandra West.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --sage: #7A9E7E;
+    --sage-dark: #5F8163;
+    --off-white: #F9F7F4;
+    --near-black: #2C2C2C;
+    --light-sage: #D4E6D5;
+    --muted: #6B6B6B;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--off-white);
+    color: var(--near-black);
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 20px;
+    line-height: 1.5;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+
+  .wordmark {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    color: var(--near-black);
+  }
+
+  .tagline {
+    margin-top: 8px;
+    font-size: 15px;
+    color: var(--muted);
+  }
+
+  .pitch {
+    margin: 28px 0 32px;
+    font-size: 17px;
+    line-height: 1.55;
+  }
+
+  .pitch strong { font-weight: 600; }
+
+  .score-chip {
+    display: inline-block;
+    background: var(--light-sage);
+    color: var(--sage-dark);
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-bottom: 20px;
+  }
+
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 12px;
+    transition: transform 0.12s ease, opacity 0.12s ease;
+  }
+
+  .btn:active { transform: scale(0.985); }
+
+  .btn-primary {
+    background: var(--sage);
+    color: #fff;
+  }
+
+  .btn-secondary {
+    background: transparent;
+    color: var(--near-black);
+    border: 1.5px solid rgba(44, 44, 44, 0.18);
+  }
+
+  .note {
+    margin-top: 20px;
+    font-size: 14px;
+    color: var(--muted);
+    line-height: 1.5;
+  }
+
+  .ios-panel {
+    background: #fff;
+    border: 1.5px solid var(--light-sage);
+    border-radius: 14px;
+    padding: 22px 20px;
+    margin-bottom: 12px;
+  }
+
+  .ios-panel h2 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+
+  .ios-panel p {
+    font-size: 15px;
+    color: var(--muted);
+    margin-bottom: 18px;
+  }
+
+  .ios-panel .btn { margin-bottom: 0; }
+
+  .footer {
+    margin-top: 32px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<main class="card">
+  <div class="wordmark">Cosmo</div>
+  <div class="tagline">Products you can trust, transparency you will love</div>
+
+  <p class="pitch">
+    <span class="score-chip">Every product scored 0&ndash;10</span><br>
+    Premium healthy snacks with the honest reason why each one is good or bad.
+    <strong>Delivered in 20 minutes</strong> in Bandra West.
+  </p>
+
+  <!-- Android / default -->
+  <div id="android-block" hidden>
+    <a class="btn btn-primary" id="play-btn" href="#">Download on Google Play</a>
+  </div>
+
+  <!-- iOS: no App Store build yet. Capture instead of dead-end. -->
+  <div id="ios-block" hidden>
+    <div class="ios-panel">
+      <h2>iPhone app lands next week</h2>
+      <p>We're in Apple's review queue. Tap below and we'll message you the moment it's live &mdash; nothing else, no spam.</p>
+      <a class="btn btn-primary" id="wa-btn" href="#">Tell me when it's ready</a>
+    </div>
+    <a class="btn btn-secondary" id="play-btn-ios" href="#">Have an Android too? Get it now</a>
+  </div>
+
+  <!-- Desktop / unknown device -->
+  <div id="desktop-block" hidden>
+    <a class="btn btn-primary" id="play-btn-desktop" href="#">Download on Google Play</a>
+    <a class="btn btn-secondary" id="wa-btn-desktop" href="#">On iPhone? Get notified at launch</a>
+    <p class="note">Open this page on your phone to download directly.</p>
+  </div>
+
+  <p class="footer">Bandra West &middot; 400050 &middot; #KnowWhatYouEat</p>
+</main>
+
+<script>
+(function () {
+  // ---- CONFIGURE THESE THREE ----------------------------------------
+  var PLAY_URL  = 'https://play.google.com/store/apps/details?id=in.cosmoapp';
+  var APPLE_URL = '';           // <- paste App Store URL when live, page auto-switches
+  var WA_NUMBER = '91XXXXXXXXXX'; // <- Cosmo WhatsApp number, country code, no +
+  // -------------------------------------------------------------------
+
+  var WA_TEXT = 'Hi! Let me know when the Cosmo iPhone app is live.';
+
+  // Carry the flyer's UTM tags through to the store so attribution survives.
+  var qs = window.location.search.replace(/^\?/, '');
+
+  function withTags(base) {
+    if (!qs) return base;
+    return base + (base.indexOf('?') > -1 ? '&' : '?') + qs;
+  }
+
+  var waHref = 'https://wa.me/' + WA_NUMBER + '?text=' + encodeURIComponent(WA_TEXT);
+  var playHref = withTags(PLAY_URL);
+
+  var ua = navigator.userAgent || '';
+  var isAndroid = /android/i.test(ua);
+  // iPadOS 13+ reports as Macintosh, so check for touch to catch it.
+  var isIOS = /iPad|iPhone|iPod/.test(ua) ||
+              (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+
+  function set(id, href) {
+    var el = document.getElementById(id);
+    if (el) el.href = href;
+  }
+  function show(id) {
+    var el = document.getElementById(id);
+    if (el) el.hidden = false;
+  }
+
+  set('play-btn', playHref);
+  set('play-btn-ios', playHref);
+  set('play-btn-desktop', playHref);
+  set('wa-btn', waHref);
+  set('wa-btn-desktop', waHref);
+
+  if (isIOS) {
+    // Once APPLE_URL is filled in, iPhone users go straight to the App Store.
+    if (APPLE_URL) {
+      window.location.replace(withTags(APPLE_URL));
+      return;
+    }
+    show('ios-block');
+  } else if (isAndroid) {
+    show('android-block');
+  } else {
+    show('desktop-block');
+  }
+})();
+</script>
+
+</body>
+</html>
