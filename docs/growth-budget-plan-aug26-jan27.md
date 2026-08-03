@@ -79,6 +79,35 @@ Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable bu
 | Blended | CAC/first order · LTV6/CAC | ≤₹200 · ≥2.0 | ≤₹300 · ≥1.3 | Monthly |
 | Retention | 14-day repeat rate | 30%+ | 20% | Weekly cohorts |
 
+## A5a. Discount code usage caps (added Aug 3, 2026 — Adi reviews/edits weekly per B3)
+
+No code in Part C had a max-redemptions limit until now. All fixed-₹ codes (`BANDRA100`, `SOC100`, `FLYER100`, champion codes, `REF-`, `WB75`, `GIFTED100`, `RETURN100`) draw from the "Referral + first-order incentives" line in A3 — `DIWALI15` is a % code funded from the Diwali festive line instead and isn't capped the same way. Ceiling = 90% of that month's incentive budget ÷ ₹100 blended redemption value, so a full month at cap never breaches D5.
+
+| Month | Referral/incentive budget | Budget-implied ceiling (all fixed-₹ codes combined) | A4 new-cust target (sanity check) |
+|---|---|---|---|
+| Aug | ₹25,000 | 225 | 80 |
+| Sep | ₹30,000 | 270 | 100 |
+| Oct | ₹35,000 | 315 | 140 |
+| Nov | ₹40,000 | 360 | 170 |
+| Dec | ₹35,000 | 315 | 130 |
+| Jan | ₹30,000 | 270 | 100 |
+
+**Live now (Week 1, Aug):**
+
+| Code | Cap | Basis |
+|---|---|---|
+| `BANDRA100` | 70 | Organic + paid Meta implied new-cust share (~34) × 2 buffer |
+| `SOC100` + champion codes (combined) | 60 | Societies implied share (~28) × 2 |
+| `FLYER100` | 25 | Flyers implied share (~10) × 2 |
+
+Set caps for `REF-`, `WB75`, `GIFTED100`, `RETURN100` when each goes live in Part C, using the same method (implied redemption share from A4 × 2 buffer), and confirm the caps are enforced wherever the discount logic actually runs (the admin panel — see A6 below, not Shopify, since checkout is native Razorpay, not Shopify checkout).
+
+Review and adjust every Sunday as part of B3 using that week's actual redemptions from the metrics sheet — raise a cap if a code is under-using its share of the monthly ceiling and another channel is starved; never let the combined total exceed the month's ceiling.
+
+## A6. Where discount logic actually runs
+
+Shopify (`heyhfw-wa.myshopify.com`) is scoped to product content management only — name, images, description. It is NOT the checkout. Checkout is native in-app via Razorpay SDK, and promo codes are created and validated in the internal admin panel (Retool/Appsmith), not Shopify's discount engine. Any usage cap set in Shopify will not affect what customers can actually redeem in-app — caps must be enforced in the admin panel/backend Rohit owns.
+
 ---
 
 # PART B — STANDING ROUTINES (do these without being told, all 26 weeks)
@@ -97,6 +126,7 @@ Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable bu
 2. In Meta Ads Manager: sort ad sets by cost-per-install. Turn OFF the worst performer if it's >1.5× the best. Duplicate the best with +20% budget. Never touch anything mid-week.
 3. Send the "Shelf Drop" broadcast (template in Week 4) to the full customer WhatsApp list: what's new this week + one Cosmo Score story.
 4. Compute 14-day repeat rate for the cohort from two weeks ago (customers who first ordered then ÷ how many ordered again within 14 days).
+5. Review discount code usage caps (A5a) against this week's actual redemptions. Raise a starved code's cap or lower an over-performing one, but never let the combined monthly total exceed that month's budget-implied ceiling.
 
 ## B3a. Monthly influencer cycle (₹15,000/month, every month)
 1. First week of the month: book 2–3 nano collabs at ≤₹5k each (repeat the best performers; replace anyone below 15 installs/collab — check their code in the sheet).
@@ -142,7 +172,11 @@ Rule: the associate follows this playbook the same way Adi does — every recurr
 2. **Fri Aug 1 — build the metrics sheet.** Google Sheet, one row per day, columns: date, installs, orders, GMV, AOV, orders by each code, ad spend, notes. Tabs 2–3: weekly rollup, cohort repeat tracker. 30 minutes, do not overbuild.
 3. **Fri Aug 1, 6pm — go live (Android only for now).** The app IS the launch — no catalog, no chat ordering. Send the launch message to your entire personal network + the customer broadcast list: *"Cosmo is live 🎉 Premium healthy snacks, every product scored 0–10 with the honest reason why, delivered in 20 minutes in Bandra West. First order ₹100 off with BANDRA100. Download the app: [Play Store link]. (iPhone users — App Store version lands in ~10 days, hang tight!)"* If anyone tries to order over WhatsApp, reply warmly and send the Play Store link — every order must flow through the app so payments, attribution, and push notifications all work. Post the launch Instagram post (carousel pipeline already runs nightly — leave it alone). **iPhone-owning contacts:** note them down instead of losing them — you'll re-message this exact list the day App Store goes live (Week 2 task).
 4. **Sat Aug 2 — recruit society champions, round 1.** From the existing list of 8–10 Bandra West societies (context/tasks.md), personally message one resident per building you know (or the society WhatsApp admin): *"Hey [name] — I've started Cosmo, 20-min delivery of genuinely healthy snacks, every product health-scored. Would you forward one message to the society group? Everyone gets ₹100 off with code [SOC100/building code], and for every 5 neighbours who order, you get ₹200 credit."* Target: 5 champions agreed by Sunday.
-5. **Sun Aug 3 — print order.** Finalize with Avirup and send to a local printer: 2,000 A5 flyers (QR → a smart/universal link that auto-routes to Play Store or App Store depending on the phone — ask Rohit to set one up in 10 minutes via Branch.io free tier or a simple redirect page; don't print a Play-Store-only QR that goes stale in 10 days — code FLYER100, one line: "Every snack scored 0–10. Delivered in 20 minutes.") + 500 rating-card inserts + 500 "RATED = ₹50 off" cards. Budget ₹12,000 from creative.
+5. **Sun Aug 3 — print order.** Finalize with Avirup and send to a local printer: 2,000 A5 flyers (QR → the Cosmo Linktree, code FLYER100, one line: "Every snack scored 0–10. Delivered in 20 minutes.") + 500 rating-card inserts + 500 "RATED = ₹50 off" cards. Budget ₹12,000 from creative.
+
+   **QR destination — decided Aug 3, 2026.** The QR points at the Cosmo Linktree, not a Branch.io smart link or a self-hosted redirect page (both were considered and rejected — Adi wanted a simple two-button tap-to-choose page with no dev dependency). Link order: Android → iPhone → website. Until App Store approval lands (~Aug 8–11), the iPhone button points at a WhatsApp click-to-chat link ("tell me when the iPhone app is live") so iPhone scans are captured into the broadcast list instead of dead-ending; on approval day it's swapped to the App Store URL and relabelled. The flyers never need reprinting because the QR encodes the Linktree URL, and what sits behind each button is editable.
+
+   **Known limitation:** Linktree does not forward query parameters to destination links, so the QR's `utm_source=qrcode&utm_campaign=launch` tags die at Linktree and never reach Play Console. Flyer installs therefore can't be split from Instagram-bio installs on the install side. Flyer attribution runs on the `FLYER100` order code (which is what A5 judges the channel on) plus Linktree's own per-link click counts. If the flyer channel needs a cleaner install-side read later, that's the trigger to revisit a self-hosted redirect.
 6. **Mon–Thu Aug 4–7 — flyer drop #1.** You + driver, during delivery downtime: 800 flyers into Pali Hill, Mount Mary, and St. Andrews Road buildings (lobby noticeboards + under doors where allowed). Log which buildings got flyers.
 7. **All week:** deliver every order yourself where possible; talk to customers at the door for 60 seconds — what they wish you stocked. Write every answer down.
 8. **All week — log your hours.** Keep a running note of where your time goes (ops / content / brands / admin / delivery). Three weeks of this writes the associate's real job description in Week 2–3 — from data, not guesses.
