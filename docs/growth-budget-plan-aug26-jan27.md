@@ -79,6 +79,35 @@ Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable bu
 | Blended | CAC/first order · LTV6/CAC | ≤₹200 · ≥2.0 | ≤₹300 · ≥1.3 | Monthly |
 | Retention | 14-day repeat rate | 30%+ | 20% | Weekly cohorts |
 
+## A5a. Discount code usage caps (added Aug 3, 2026 — Adi reviews/edits weekly per B3)
+
+No code in Part C had a max-redemptions limit until now. All fixed-₹ codes (`BANDRA100`, `SOC100`, `FLYER100`, champion codes, `REF-`, `WB75`, `GIFTED100`, `RETURN100`) draw from the "Referral + first-order incentives" line in A3 — `DIWALI15` is a % code funded from the Diwali festive line instead and isn't capped the same way. Ceiling = 90% of that month's incentive budget ÷ ₹100 blended redemption value, so a full month at cap never breaches D5.
+
+| Month | Referral/incentive budget | Budget-implied ceiling (all fixed-₹ codes combined) | A4 new-cust target (sanity check) |
+|---|---|---|---|
+| Aug | ₹25,000 | 225 | 80 |
+| Sep | ₹30,000 | 270 | 100 |
+| Oct | ₹35,000 | 315 | 140 |
+| Nov | ₹40,000 | 360 | 170 |
+| Dec | ₹35,000 | 315 | 130 |
+| Jan | ₹30,000 | 270 | 100 |
+
+**Live now (Week 1, Aug):**
+
+| Code | Cap | Basis |
+|---|---|---|
+| `BANDRA100` | 70 | Organic + paid Meta implied new-cust share (~34) × 2 buffer |
+| `SOC100` + champion codes (combined) | 60 | Societies implied share (~28) × 2 |
+| `FLYER100` | 25 | Flyers implied share (~10) × 2 |
+
+Set caps for `REF-`, `WB75`, `GIFTED100`, `RETURN100` when each goes live in Part C, using the same method (implied redemption share from A4 × 2 buffer), and confirm the caps are enforced wherever the discount logic actually runs (the admin panel — see A6 below, not Shopify, since checkout is native Razorpay, not Shopify checkout).
+
+Review and adjust every Sunday as part of B3 using that week's actual redemptions from the metrics sheet — raise a cap if a code is under-using its share of the monthly ceiling and another channel is starved; never let the combined total exceed the month's ceiling.
+
+## A6. Where discount logic actually runs
+
+Shopify (`heyhfw-wa.myshopify.com`) is scoped to product content management only — name, images, description. It is NOT the checkout. Checkout is native in-app via Razorpay SDK, and promo codes are created and validated in the internal admin panel (Retool/Appsmith), not Shopify's discount engine. Any usage cap set in Shopify will not affect what customers can actually redeem in-app — caps must be enforced in the admin panel/backend Rohit owns.
+
 ---
 
 # PART B — STANDING ROUTINES (do these without being told, all 26 weeks)
@@ -97,6 +126,7 @@ Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable bu
 2. In Meta Ads Manager: sort ad sets by cost-per-install. Turn OFF the worst performer if it's >1.5× the best. Duplicate the best with +20% budget. Never touch anything mid-week.
 3. Send the "Shelf Drop" broadcast (template in Week 4) to the full customer WhatsApp list: what's new this week + one Cosmo Score story.
 4. Compute 14-day repeat rate for the cohort from two weeks ago (customers who first ordered then ÷ how many ordered again within 14 days).
+5. Review discount code usage caps (A5a) against this week's actual redemptions. Raise a starved code's cap or lower an over-performing one, but never let the combined monthly total exceed that month's budget-implied ceiling.
 
 ## B3a. Monthly influencer cycle (₹15,000/month, every month)
 1. First week of the month: book 2–3 nano collabs at ≤₹5k each (repeat the best performers; replace anyone below 15 installs/collab — check their code in the sheet).
