@@ -37,6 +37,23 @@ changes how Adi wants people handled)
 truth for spend/progress; this section is for meta-notes: things in flight, open questions,
 follow-ups Adi raised that aren't yet resolved in the plan doc)
 
+**Launch slipped to Aug 13, 2026** (from Aug 1). As of Aug 15: 0 orders, and Adi is stressed
+about it. Plan re-baselined in section C0 — August compressed (not shifted), targets cut to
+245 installs / 67 orders / ₹34,000 GMV, Part D kill rules suspended for August except D2.
+
+Open questions awaiting Adi's answer (he should report these back):
+- **Install count** Aug 13–15 from Play Console — unknown, and everything downstream depends on it.
+- **iOS App Store status** — Live / In Review / Rejected / not yet submitted. Ranked as the
+  most likely single cause of the zero-order start (Bandra West is iPhone-heavy).
+- **Funnel test result** — especially whether the 400050 pincode gate accepts valid addresses
+  and whether delivery hours are visible/open.
+- **Associate JD** — was due Aug 10, still unposted; must go up Mon Aug 17 or the Sep 1 hire slips.
+
+**Handling note for stressed check-ins:** Adi reads a quiet launch as failure. He responds to
+being shown the arithmetic (days elapsed vs. the goal's denominator) and to a concrete ordered
+task list — not to reassurance. Diagnose before prescribing spend, and hold the "no paid ads
+until the funnel converts" line even when he wants to buy his way out of a slip.
+
 ---
 
 ## Output — formats, naming, delivery preferences
