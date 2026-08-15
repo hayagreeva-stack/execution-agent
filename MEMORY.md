@@ -42,11 +42,12 @@ about it. Plan re-baselined in section C0 — August compressed (not shifted), t
 245 installs / 67 orders / ₹34,000 GMV, Part D kill rules suspended for August except D2.
 
 Open questions awaiting Adi's answer (he should report these back):
-- **Install count** Aug 13–15 from Play Console — unknown, and everything downstream depends on it.
-- **iOS App Store status** — Live / In Review / Rejected / not yet submitted. Ranked as the
-  most likely single cause of the zero-order start (Bandra West is iPhone-heavy).
+- **Install count** Aug 13–15 from Play Console (+ App Store Connect now) — unknown, and
+  everything downstream depends on it.
+- ~~iOS App Store status~~ — **ANSWERED Aug 15: App Store is LIVE.** Was ranked the most likely
+  cause of the zero-order start; now ruled out. iOS activation tasks moved into Week 1 task 9.
 - **Funnel test result** — especially whether the 400050 pincode gate accepts valid addresses
-  and whether delivery hours are visible/open.
+  and whether delivery hours are visible/open. Now the top remaining suspect.
 - **Associate JD** — was due Aug 10, still unposted; must go up Mon Aug 17 or the Sep 1 hire slips.
 
 **Handling note for stressed check-ins:** Adi reads a quiet launch as failure. He responds to
