@@ -5,7 +5,7 @@
 **Shopify store:** heyhfw-wa.myshopify.com
 **Email domain:** cosmoapp.in
 **Location:** Mumbai, India (Bandra West)
-**Stage:** Quick-commerce marketplace. QC pilot launched Aug 1, 2026 (Android; iOS ~Aug 8–11, 2026).
+**Stage:** Quick-commerce marketplace. QC pilot launched **Thu Aug 13, 2026 — Android and iOS on the same day** (planned Aug 1 Android-first with iOS ~Aug 8–11; actual launch was both stores, 12 days later). First orders: 5 by Aug 16, 2026.
 
 **One-liner:**
 "Cosmo is a quick-commerce marketplace for premium healthy snacks — every product is rated
@@ -77,7 +77,7 @@ not US analogues (e.g. Crumbl).
 - **Push notifications:** Expo
 - **Shopify:** product content management only (name, images, description) — NOT checkout,
   orders, or fulfilment
-- **App:** live on Google Play; iOS ~1–1.5 weeks after Play Store launch
+- **App:** live on Google Play **and the App Store — both since Aug 13, 2026** (the planned 1–1.5 week iOS lag did not happen; they shipped together)
 
 ## Brand identity
 

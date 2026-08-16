@@ -1,8 +1,10 @@
-# Cosmo Execution Playbook — Aug 1, 2026 → Jan 31, 2027
+# Cosmo Execution Playbook — Aug 13, 2026 → Jan 31, 2027
+
+**⚠ Start date is Aug 13, 2026, not Aug 1.** The plan was written against an Aug 1 launch; the app actually went live **Thu Aug 13, 2026 on BOTH stores (Google Play + App Store, same day)**. Every date, week window and target in this document has been re-based onto Aug 13 — see C0 for the compressed week structure and A4 for the re-baselined August target. The budget window and the ₹15,00,000 ceiling are unchanged; only the calendar moved.
 
 **How to use this document:** Part A is the numbers (budget, targets). Part B is your standing routine — the things you do every day/week without thinking. Part C is the week-by-week instruction set — open it Monday morning, do the tasks in order, check the goal on Sunday night. Part D is the kill rules. If a week's goal is missed, Part D tells you what to change; otherwise never deviate.
 
-**Ground rules baked in:** ₹15,00,000 hard ceiling. Aug 1 launch. Pincode 400050 only. Primarily consignment stock, with a few brands sold to us outright (NOT 100% consignment — confirmed Jul 23, 2026; e.g. the ₹18k Ray Health buy). Driver + Adi deliver (not a cost). **Influencers: barter is dead (0 takers) — but PAID nano-influencers are in at ₹15,000/month (2–3 collabs).** No offline events. Creative = Adi + AI + Avirup, no agencies, no shoots. **The app is the ONLY storefront — there is no WhatsApp catalog.** All ordering happens in the app; WhatsApp is used strictly for broadcasts, support, feedback, and win-back — every WhatsApp message drives people INTO the app, never to order over chat.
+**Ground rules baked in:** ₹15,00,000 hard ceiling. **Launch: Thu Aug 13, 2026, iOS + Android simultaneously** (planned Aug 1 Android-first with iOS ~Aug 8–11; actual was both stores on day one, 12 days later). Pincode 400050 only. Primarily consignment stock, with a few brands sold to us outright (NOT 100% consignment — confirmed Jul 23, 2026; e.g. the ₹18k Ray Health buy). Driver + Adi deliver (not a cost). **Influencers: barter is dead (0 takers) — but PAID nano-influencers are in at ₹15,000/month (2–3 collabs).** No offline events. Creative = Adi + AI + Avirup, no agencies, no shoots. **The app is the ONLY storefront — there is no WhatsApp catalog.** All ordering happens in the app; WhatsApp is used strictly for broadcasts, support, feedback, and win-back — every WhatsApp message drives people INTO the app, never to order over chat.
 
 ---
 
@@ -13,13 +15,26 @@
 | Block | Amount |
 |---|---|
 | Fixed costs: Aug ₹72k (Rohit 50k, Avirup retainer 15k, tech 5k, Claude 2k); Sep–Jan ₹57k/mo (Avirup off retainer) | ₹3,57,000 |
-| Brand-ops associate — ₹20k/mo, Sep 1 start (recruited in August) | ₹1,00,000 |
+| ~~Brand-ops associate — ₹20k/mo, Sep 1 start~~ · **❌ CANCELLED Aug 16, 2026 — Adi decided not to hire.** See A1a below. | ~~₹1,00,000~~ **₹0** |
+| **Unallocated reserve** — the freed associate money, deliberately not reassigned (A1a) | **₹1,00,000** |
 | Avirup per-assignment design (rate card): Sep 5k · Oct 8k · Nov 8k · Dec 5k · Jan 5k | ₹31,000 |
 | Growth pool (A3) — funds the two lines above via a ₹56k Meta trim | ₹8,32,000 |
 | Contingency — held back, release rules in D6 | ₹1,80,000 |
 | **Total** | **₹15,00,000** |
 
-**Team decisions locked (Jul 19):** (1) Hire a brand-ops associate at ₹20k/month from Sep 1 — funded by trimming Meta ~₹11k/month Sep–Jan, our worst-ROI channel in the bear case; the associate is effectively a supply-side growth channel (more brands = more SKUs, co-marketing, consignment stock). (2) Avirup moves from ₹15k retainer to per-assignment from Sep 1, after all V2 screens are finalised by mid-Aug — with a fixed rate card (static ₹500, reel polish ₹800, print-ready file ₹1,000, screen mockup ₹1,500) and a written 48-hour turnaround. Framing: "design is becoming project-based," never "not enough work for you."
+## A1a. Associate hire — CANCELLED (decided by Adi, Aug 16, 2026)
+
+The Jul 19 decision to hire a brand-ops associate at ₹20k/month from Sep 1 is **reversed**. No JD is posted, no candidate is pursued, and the ₹1,00,000 leaves the cost base.
+
+**What this frees:** ₹1,00,000 across Sep–Jan (₹20k × 5 months). The ₹15,00,000 ceiling is unchanged — this is money moved to reserve, not saved off the total.
+
+**Where it goes: nowhere, for now.** It is parked as **unallocated reserve** and deliberately not pushed into any channel yet. Reasoning: the binding constraint as of Aug 16 is a 5% install→first-order rate, and spending more on acquisition while 95% of installs don't convert is precisely what D2 exists to prevent. The obvious candidate — reversing the ₹56k Meta trim that originally funded the hire — is the *worst* available use of it this month for the same reason. **Decide at the Sep 15 fortnightly review**, once conversion data exists. It is not contingency money (D6's release rules don't apply); it is ordinary uncommitted budget inside the ceiling.
+
+**What it costs — stated plainly so it isn't a surprise in October.** The associate was never a growth lever; the hire existed so shelf upkeep wouldn't consume Adi's hours. With ~150 SKUs live, the entire B5a left-hand column now sits with Adi permanently: product uploads and listing checks, nutrient/ingredient data entry, brand onboarding admin and consignment chasing, rough-cut content, daily metrics entry, Diwali collection tagging in November. That is real recurring hours during the Diwali build-up and the November fundraise, in the same weeks he is also delivering orders, running societies and fixing conversion. **The failure mode to watch for is silent:** 150 listings nobody maintains go stale — wrong prices, missing scores, dead photos — and it stays invisible until customers hit it. Mitigations available if it starts to bite: (a) narrow the active shelf to the ~40 SKUs that actually sell and let the tail sit unlisted rather than wrong; (b) buy hours instead of a person — a part-time data-entry freelancer for the label→metafield backlog only, costed per batch out of this same reserve; (c) revisit the hire at the Sep 15 or Sep 30 review. None of these is triggered today.
+
+**Revisit triggers:** if Adi finds himself spending >10 hours/week on B5a-column work, or if shelf accuracy visibly degrades, reopen this decision at the next fortnightly review.
+
+**Team decisions (Jul 19; item 1 reversed Aug 16, 2026):** (1) ~~Hire a brand-ops associate at ₹20k/month from Sep 1 — funded by trimming Meta ~₹11k/month Sep–Jan, our worst-ROI channel in the bear case; the associate is effectively a supply-side growth channel (more brands = more SKUs, co-marketing, consignment stock).~~ **CANCELLED — see A1a.** Note the Meta trim that funded it is NOT automatically reversed; that ₹56k stays trimmed pending the Sep 15 review. (2) Avirup moves from ₹15k retainer to per-assignment from Sep 1, after all V2 screens are finalised by mid-Aug — with a fixed rate card (static ₹500, reel polish ₹800, print-ready file ₹1,000, screen mockup ₹1,500) and a written 48-hour turnaround. Framing: "design is becoming project-based," never "not enough work for you."
 
 ## A2. Bear-case assumptions (every number downstream derives from these; weeks 3–4 actuals replace them)
 
@@ -41,15 +56,18 @@
 | ASO / review push / small UAC test | 13,000 | 17,000 | 0 | 4,000 | 10,000 | 9,000 | **53,000** |
 | **Growth total** | **1,15,000** | **1,24,000** | **1,59,000** | **1,79,000** | **1,41,000** | **1,14,000** | **8,32,000** |
 | + Fixed | 72,000 | 57,000 | 57,000 | 57,000 | 57,000 | 57,000 | 3,57,000 |
-| + Associate | 0 | 20,000 | 20,000 | 20,000 | 20,000 | 20,000 | 1,00,000 |
+| ~~+ Associate~~ **CANCELLED Aug 16** | 0 | 0 | 0 | 0 | 0 | 0 | **0** |
 | + Avirup assignments | 0 | 5,000 | 8,000 | 8,000 | 5,000 | 5,000 | 31,000 |
-| **All-in** | **1,87,000** | **2,06,000** | **2,44,000** | **2,64,000** | **2,23,000** | **1,96,000** | **13,20,000** |
+| **All-in** | **1,87,000** | **1,86,000** | **2,24,000** | **2,44,000** | **2,03,000** | **1,76,000** | **12,20,000** |
+| *(pre-cancellation all-in, for reference)* | *1,87,000* | *2,06,000* | *2,44,000* | *2,64,000* | *2,23,000* | *1,96,000* | *13,20,000* |
+
+**Effect of cancelling the associate (Aug 16):** all-in drops ₹20,000/month Sep–Jan, ₹1,00,000 in total. The ₹15,00,000 ceiling is unchanged — the freed money sits in unallocated reserve (A1a), not in any channel. Growth-pool rows above are untouched; the Meta trim that originally funded the hire stays trimmed pending the Sep 15 review.
 
 Meta daily budgets by month: Aug ₹1,150/day · Sep ₹1,300 · Oct ₹2,050 · Nov ₹2,650 · Dec ₹1,900 · Jan ₹1,250.
 
 The influencer line (₹90k) is funded by a further ₹75k Meta trim + ₹15k off ASO — the growth pool stays ₹8,32,000 and the ceiling holds. Rationale: a good nano collab doubles as ad creative (run the winning influencer video as a Meta ad with their permission — negotiate usage rights into every ₹5k deal), so influencer money partially replaces both ad spend and creative production.
 
-**Effect of the Meta trim on targets:** at bear CPI ₹50, the ₹56k trim costs ~110 paid installs across Sep–Jan. Order/GMV targets in A4 are HELD unchanged — the offset is assumed to come from associate-driven shelf breadth (more brands → more SKUs → better conversion and AOV) plus Adi's reclaimed hours going into societies and referral. If September installs miss target by >10%, treat this assumption as broken and revisit at the month close.
+**Effect of the Meta trim on targets:** at bear CPI ₹50, the ₹56k trim costs ~110 paid installs across Sep–Jan. Order/GMV targets in A4 are HELD unchanged — the offset was assumed to come from associate-driven shelf breadth (more brands → more SKUs → better conversion and AOV) plus Adi's reclaimed hours going into societies and referral. **⚠ Weakened Aug 16:** with the hire cancelled (A1a), the shelf-breadth half of that offset has no owner and Adi's hours are going the other way — into B5a work, not out of it. The targets stay held for now, but this is a known soft spot: **if September installs miss target by >10%, treat the assumption as broken and revisit at the month close** — and note the ₹1,00,000 in unallocated reserve is the natural place to fund a correction.
 
 ## A4. Monthly targets — installs by channel, orders, GMV
 
@@ -62,7 +80,33 @@ The influencer line (₹90k) is funded by a further ₹75k Meta trim + ₹15k of
 | Dec | 100 | 140 | 220 | 140 | 50 | **650** | 130 | 250 | **380** | 600 | **2,28,000** | 63,840 |
 | Jan | 90 | 110 | 170 | 100 | 30 | **500** | 100 | 300 | **400** | 600 | **2,40,000** | 67,200 |
 
-Aug installs are Android-only (App Store lands ~Aug 8–11); every column from Sep onward is blended Play Store + App Store. Numbers are held flat rather than bumped up for iOS — Bandra West's iPhone-heavy demographic could plausibly lift both installs and AOV, but that's an upside to prove with actuals, not assume in the plan.
+**⚠ August re-baselined (Aug 15, 2026; iOS fact corrected Aug 16) — launch slipped to Aug 13.** Actual launch was **Thu Aug 13**, not Aug 1 — 12 days lost, leaving a 19-day August. The Aug row above is the original 31-day target and is retained for reference only. The **operative August target is the re-baselined row below** (pro-rata 19/31, orders and GMV held at the same conversion ratios):
+
+| Month | **Installs** | New cust. (20%) | Repeat orders | **Orders** | AOV | **GMV** | Cosmo rev (28%) |
+|---|---|---|---|---|---|---|---|
+| **Aug (re-baselined, Aug 13–31)** | **245** | 49 | 18 | **67** | 500 | **₹34,000** | ₹9,520 |
+
+August repeat rate is **not measurable** this month — no cohort reaches 14 days before Aug 27. Sep–Jan targets are HELD unchanged; the August shortfall is absorbed as lost calendar, not carried forward as a deficit. See C0 for the compressed week structure and the August kill-rule suspension.
+
+Aug installs were planned as Android-only for most of the month (App Store targeted ~Aug 8–11). **Actual (corrected Aug 16, 2026): iOS and Android BOTH went live on launch day, Thu Aug 13** — there is no Android-only period at all, and August is blended Play Store + App Store from day one. (An earlier note dated the App Store go-live to Aug 15; that was the day Adi confirmed it, not the day it shipped.) The re-baselined 245-install August target is NOT raised for this; every column from Sep onward is blended too. Numbers are held flat rather than bumped up for iOS — Bandra West's iPhone-heavy demographic could plausibly lift both installs and AOV, but that's an upside to prove with actuals, not assume in the plan.
+
+**August actuals to date (as of Sun Aug 16, 2026 — day 4 of 19). Reported by Adi; figures below are the real ones, not the provisional set logged earlier the same day.**
+
+**⚠ Counting rule established Aug 16 — founder's own orders are NOT orders.** Of the 5 orders recorded at launch, **3 were placed by Adi himself** and 2 by real customers. Self-orders are test transactions: they move money from Cosmo's own pocket, generate no acquisition signal, and if left in the numbers they inflate conversion by 2.5× and hide the real funnel. **From now on, self-orders are logged in a separate column in the metrics sheet and excluded from orders, GMV, AOV, install→order and every derived metric in this plan.** The same applies to any order placed by Kunal, Rohit or Avirup.
+
+| Metric | Actual (real customers only) | Aug target (re-baselined) | Required run-rate | Actual run-rate | Read |
+|---|---|---|---|---|---|
+| **Installs** | **40** (Aug 13–16, both stores combined — not yet split Android/iOS) | 245 | 12.9/day | 10/day | The one number tracking near plan. Reach is not the problem. |
+| **Orders** | **2** (+3 self-orders excluded) | 67 | 3.5/day | 0.5/day | Projects to **~10 orders for August vs 67**. This is the problem. |
+| **GMV** | **₹720** (₹170 + ₹550) | ₹34,000 | ₹1,790/day | ₹180/day | 2% of the month's target in 21% of its days. |
+| **AOV** | **₹360** | ₹500 (bear) | — | — | **28% below bear.** n=2, so not yet a reason to change A2 — but the ₹170 basket is below the ₹300 minimum the ₹100-off codes require, meaning that customer couldn't have used a code even if one existed. |
+| **Install→first order** | **5.0%** | 20% (bear) · 15% (kill line) | — | — | **The headline number, and it is bad.** 40 installs should have produced ~8 orders on bear assumptions; they produced 2. |
+| **Cosmo revenue (28%)** | **₹202** | ₹9,520 | — | — | Two orders' commission. Stated plainly so the scale is not mistaken. |
+| Attribution | **none** — no promo codes existed | — | — | — | Both real orders came from the building WhatsApp group / friends. |
+
+**What this actually says.** Reach worked and conversion didn't. 40 installs in 4 days is on pace for the 245-install month; if anything it validates that the personal network can move people to the store page. But **95% of the people who installed the app did not order**, and the plan's entire economic model assumes 20% do. At a 5% install→order rate, hitting 67 August orders would need **1,340 installs** — five and a half times the install target, from channels that don't exist yet. No amount of top-of-funnel activity fixes a funnel that leaks like this; it just makes the leak more expensive.
+
+**Targets are HELD, not cut.** August stays at 245 / 67 / ₹34,000 and Sep–Jan stay untouched. Per A2's standing rule, bear-case assumptions are not revised off 4 days and n=2 — in either direction. The gap gets closed by fixing conversion, or it gets missed and recorded as missed. Moving the goalposts to match a bad week would destroy the only thing these numbers are good for.
 | **Total** | **560** | **900** | **1,120** | **680** | **340** | **3,600** | **720** | **960** | **1,680** | — | **₹9,67,000** | **₹2,70,760** |
 
 Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable budget inside the ₹15L.
@@ -84,12 +128,12 @@ Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable bu
 # PART B — STANDING ROUTINES (do these without being told, all 26 weeks)
 
 ## B1. Daily, 15 minutes, every morning at 9:00
-1. Open the metrics Google Sheet (you build it in Week 1, instructions there). Fill yesterday's row: installs (Play Console + App Store Connect once iOS is live), orders, GMV, orders per promo code, ad spend (Meta Ads Manager).
+1. Open the metrics Google Sheet (you build it in Week 1, instructions there). Fill yesterday's row: installs (Play Console **and** App Store Connect, as two separate columns — both stores live since Aug 13), orders, GMV, orders per promo code, ad spend (Meta Ads Manager). **Self-orders — anything placed by Adi, Kunal, Rohit or Avirup — go in their own column and are excluded from orders/GMV/AOV and every rate computed from them** (rule set Aug 16, after 3 of the first 5 "orders" turned out to be Adi's own).
 2. Reply to every customer WhatsApp message from overnight.
 3. Check stock levels of top 10 SKUs; if any is below 3 units, message the brand for a consignment top-up today.
 
 ## B2. Daily, whenever an order is delivered
-1. Every order bag contains: the rating card insert + a small card that says: *"Loved it? Rate us on the Play Store (or App Store, if you're on iPhone) and get ₹50 off your next order — reply RATED on WhatsApp with a screenshot."* (You print these in Week 1; App Store isn't live yet at print time, but the card text works for both from day one.)
+1. Every order bag contains: the rating card insert + a small card that says: *"Loved it? Rate us on the Play Store (or App Store, if you're on iPhone) and get ₹50 off your next order — reply RATED on WhatsApp with a screenshot."* (You print these in Week 1. Both stores are live from launch day, so the card text applies to every customer immediately — and the QR on it must use the smart link, not a Play-Store-only URL.)
 2. 24 hours after delivery, send the customer this WhatsApp: *"Hey [name], Adi from Cosmo here. How was the [top item in order]? One line of honest feedback helps me pick what to stock next."* — this drives repeat rate more than any ad.
 
 ## B3. Weekly, every Sunday night, 45 minutes
@@ -106,19 +150,28 @@ Commission income (~₹2.7L by Jan) extends runway; it is NOT extra spendable bu
 ## B4. Fortnightly, alternate Fridays
 Run the kill-criteria review (Part D). Every channel gets one word in the sheet: KEEP / KILL / SCALE.
 
-## B5a. Who does what — delegation map (from Sep 1)
+## B5a. Who does what — delegation map
 
-| Associate (₹20k/mo) | Adi only — never delegate | Automated / Fable |
+**❌ NO ASSOCIATE (decided Aug 16, 2026 — see A1a).** The left-hand column was written for a hire that isn't happening. **Every duty in it is now Adi's, permanently.** Nothing in it became optional — the work still has to happen, there is just nobody else to do it. The column is retained below as Adi's own recurring checklist, and as the scope to hand over if the decision is ever reopened.
+
+**Because it all lands on one person, these rules now apply:**
+1. **Batch the shelf work.** Product uploads, nutrient/metafield entry and listing checks go in **one fixed block per week** (suggest Wednesday afternoon), not scattered daily. Scattered, it silently expands and eats selling time.
+2. **The top ~40 SKUs get maintained; the tail can wait.** With no associate, keeping all ~150 listings perfect is not realistic alongside everything else. Accurate on the SKUs that sell beats half-accurate everywhere — an unlisted product costs one sale, a wrongly-priced one costs trust.
+3. **Daily metrics entry (B1 step 1) stays Adi's** — it was going to transfer on Sep 1, and now it doesn't. It is 5 minutes and it is the one task that must never be skipped.
+4. **Fable drafts, Adi sends.** Brand comms, shelf copy, follow-ups and content ideas were meant to be drafted by Fable and pasted by the associate. The drafting half is unchanged — ask for the draft rather than writing from scratch.
+5. **If B5a work exceeds ~10 hours/week, reopen the hire** (A1a revisit trigger) or buy freelance hours for the data-entry backlog only.
+
+| ~~Associate (₹20k/mo)~~ → **now Adi, batched weekly** | Adi only — never delegate | Automated / Fable |
 |---|---|---|
-| Add products to storefront + admin panel; check how every listing looks | Brand *relationships* and negotiation — founders sign brands, the associate chases paperwork | Reconciliation math — invoicing tool runs it; associate executes the 14th/30th cycles |
-| Nutrient lists + ingredient data entry (label → metafields workflow in context/tech.md) | Cosmo Score verdicts + shelf voice — signed "— Adi", it's the moat | Brand comms drafts, shelf copy drafts, content ideas — Fable writes, associate pastes/sends |
+| Add products to storefront + admin panel; check how every listing looks | Brand *relationships* and negotiation — founders sign brands, chase the paperwork yourself | Reconciliation math — invoicing tool runs it; Adi executes the 14th/30th cycles |
+| Nutrient lists + ingredient data entry (label → metafields workflow in context/tech.md) | Cosmo Score verdicts + shelf voice — signed "— Adi", it's the moat | Brand comms drafts, shelf copy drafts, content ideas — Fable writes, Adi pastes/sends |
 | Brand onboarding admin: VRF/agreement chasing, consignment top-up requests, follow-ups | Final creative approval; weekly Sunday ads review (B3) | Instagram carousels — nightly pipeline |
 | Rough-cut content production (Content Format Bank recipes 1–5, 9) | Fundraise, V2 decisions, kill-rule calls (Part D) | |
 | Storefront/admin upkeep; tagging Diwali-collection SKUs in Nov; daily metrics sheet entry (takes over B1 step 1) | Society champion relationships | |
 
-Rule: the associate follows this playbook the same way Adi does — every recurring duty gets a written checklist in their first week. At ₹20k in Mumbai this is a smart fresher: expect 2–3 weeks of ramp, checklist everything.
+~~Rule: the associate follows this playbook the same way Adi does — every recurring duty gets a written checklist in their first week. At ₹20k in Mumbai this is a smart fresher: expect 2–3 weeks of ramp, checklist everything.~~ *(Moot — no hire.)*
 
-**Why the hire matters even more now:** the catalog is ~150 SKUs at launch, not 20–30 — meaning 150 rounds of nutrient/ingredient data entry, listing checks, and photography coordination just to get live, plus ongoing brand onboarding at that scale (new SKUs added continuously post-launch). This was already the single biggest justification for the Sep 1 hire; at 150 SKUs it's no longer optional, it's the difference between the shelf staying accurate and it silently rotting (wrong prices, missing scores, stale photos).
+**The risk this decision accepts (unchanged, now Adi's to carry):** the catalog is ~150 SKUs, not 20–30 — meaning 150 rounds of nutrient/ingredient data entry, listing checks and photography coordination, plus ongoing brand onboarding as new SKUs are added. That was the single biggest justification for the Sep 1 hire, and cancelling the hire doesn't reduce the work by one SKU; it moves it. **The failure it protects against is silent** — a shelf nobody maintains rots (wrong prices, missing scores, stale photos) and nothing announces it; you find out when a customer does. Rules 1–2 above are the mitigation: batch it weekly, and let the tail go unlisted rather than wrong.
 
 ## B5. Monthly, the 1st, 2 hours
 1. Close the month against A3/A4. Compute blended CAC and repeat rate.
@@ -131,56 +184,128 @@ Rule: the associate follows this playbook the same way Adi does — every recurr
 
 ### Week 0 (Jul 21–31) — Pre-launch + App V2 kickoff. Spend: ₹0 (pre-budget). Goal: launch-ready Aug 1; V2 scope locked with Rohit.
 
+*(Historical record — this week is closed. It targeted an Aug 1 launch that actually happened Aug 13, on both stores at once rather than Android-first. Dates inside this section are left as originally written for traceability; nothing here is executable now. The live plan resumes at C0.)*
+
 1. **Tue Jul 21 — V2 meeting with Rohit.** Walk in with `docs/app-v2-screens.md` (the merged v2 architecture: weekly dated shelf home, moods-first browse, smart flags, usuals + weekly drops). In the meeting, lock three things: (a) the V2 scope list — visual polish + the shelf/browse redesign, nothing that delays it past mid-September; (b) a screen-by-screen build order (home shelf first — it's what every ad lands on); (c) a weekly ship cadence — Rohit shows working screens every Thursday call.
 2. **V2 standing track (Jul 21 → Aug 15 design, then Rohit codes):** budget YOUR time — 3–4 hours/week, Tuesday + Thursday evenings around the 8:30pm calls. Workflow stays as agreed: screens designed ONE at a time on your cue, each mockup briefs Avirup, who makes the final screen with Cosmo branding (FirstClub as reference). **ALL screens finalised by Aug 15** — your 24-hour design-review rule is the real deadline risk in these three weeks, not Avirup's speed. Rohit codes from mid-Aug; V2 live target Sep 15, before Diwali spend peaks. **Hard rule: V2 work must not delay the Aug 1 launch — launch on the current build; V2 replaces it in-flight.** Every screen decision favours the growth loops in this plan: score prominently on every card, referral entry point visible, review prompt after order 3.
 3. **Rest of Week 0 — launch checklist** (from context/tasks.md, verify each is DONE, chase what isn't): Razorpay KYC verified; **~150 SKUs live with scores + condition flags** (this is 5–7x the original 20–30 SKU pilot scope — treat scoring/photography/metafield entry as the single biggest launch-week risk, not a formality; prioritise the top ~40 SKUs you expect to sell first, backfill the rest through Week 2–3 if needed rather than delaying launch); prices set; FSSAI applied; two end-to-end test delivery runs completed; delivery hours decided and shown in-app; ops Telegram group live; Play Store listing current.
 4. **Also this week — prep the App Store submission in parallel.** iOS launches ~1–1.5 weeks after Play Store (target Aug 8–11). Ask Rohit for the build + App Store Connect access this week so submission goes in Day 1 of launch week, not after — Apple review can run longer than expected, and every day of delay is a day of Instagram/Meta traffic with no iOS destination. Get the listing (screenshots, description, keywords) ready now so it's a same-day submission once the build is in hand.
 
-### Week 1 (Aug 1–7) — LAUNCH. Spend: ~₹30,000. Goal: 80 installs, 20 orders, tracking live.
+### C0 — LAUNCH SLIP RE-BASELINE (logged Aug 15, 2026 · updated Aug 16, 2026)
 
-1. **Fri Aug 1, morning — attribution first.** Before telling anyone, create promo codes in the admin panel, all ₹100 off first order, min order ₹300: `BANDRA100` (general/Instagram), `SOC100` (societies), `FLYER100` (flyers), plus per-champion codes `PALI100`, `MARY100`, etc. Every future install source is identified by which code its first order uses. No code = organic.
-2. **Fri Aug 1 — build the metrics sheet.** Google Sheet, one row per day, columns: date, installs, orders, GMV, AOV, orders by each code, ad spend, notes. Tabs 2–3: weekly rollup, cohort repeat tracker. 30 minutes, do not overbuild.
-3. **Fri Aug 1, 6pm — go live (Android only for now).** The app IS the launch — no catalog, no chat ordering. Send the launch message to your entire personal network + the customer broadcast list: *"Cosmo is live 🎉 Premium healthy snacks, every product scored 0–10 with the honest reason why, delivered in 20 minutes in Bandra West. First order ₹100 off with BANDRA100. Download the app: [Play Store link]. (iPhone users — App Store version lands in ~10 days, hang tight!)"* If anyone tries to order over WhatsApp, reply warmly and send the Play Store link — every order must flow through the app so payments, attribution, and push notifications all work. Post the launch Instagram post (carousel pipeline already runs nightly — leave it alone). **iPhone-owning contacts:** note them down instead of losing them — you'll re-message this exact list the day App Store goes live (Week 2 task).
-4. **Sat Aug 2 — recruit society champions, round 1.** From the existing list of 8–10 Bandra West societies (context/tasks.md), personally message one resident per building you know (or the society WhatsApp admin): *"Hey [name] — I've started Cosmo, 20-min delivery of genuinely healthy snacks, every product health-scored. Would you forward one message to the society group? Everyone gets ₹100 off with code [SOC100/building code], and for every 5 neighbours who order, you get ₹200 credit."* Target: 5 champions agreed by Sunday.
-5. **Sun Aug 3 — print order.** Finalize with Avirup and send to a local printer: 2,000 A5 flyers (QR → a smart/universal link that auto-routes to Play Store or App Store depending on the phone — ask Rohit to set one up in 10 minutes via Branch.io free tier or a simple redirect page; don't print a Play-Store-only QR that goes stale in 10 days — code FLYER100, one line: "Every snack scored 0–10. Delivered in 20 minutes.") + 500 rating-card inserts + 500 "RATED = ₹50 off" cards. Budget ₹12,000 from creative.
-6. **Mon–Thu Aug 4–7 — flyer drop #1.** You + driver, during delivery downtime: 800 flyers into Pali Hill, Mount Mary, and St. Andrews Road buildings (lobby noticeboards + under doors where allowed). Log which buildings got flyers.
+**What happened:** launch went live **Thu Aug 13**, not Aug 1 — **on both stores simultaneously (Google Play + App Store)**. As of Sat Aug 15 (2.5 days in): app sent to Adi's personal network via broadcast, **0 orders**. Week 1 tasks 1 (promo codes), 2 (metrics sheet), 4 (champions), 5 (print order) and 6 (flyer drop) were **not** done — only task 3 (the launch broadcast) was executed. Install count unknown at time of logging.
+
+**STATUS UPDATE — Sun Aug 16, 2026 (day 4 of 19).** Three things changed since the Aug 15 entry:
+
+1. **iOS was live from launch day, not Aug 15.** Both stores shipped Aug 13. The Aug 15 note recording "App Store is LIVE" was the day Adi *confirmed* it, and was mis-recorded here as the go-live date. Corrected everywhere in this document. (The "hang tight, iPhone version in ~10 days" line was drafted but **never sent** — confirmed Aug 16. No contacts were wrongly told to wait; no correction message needed.)
+2. **Real numbers in: 40 installs, 2 customer orders, ₹720 GMV.** See the A4 actuals table.
+3. **3 of the 5 "orders" were placed by Adi himself.** The launch record of "5 orders" was wrong. Real customer orders: **2**. This is corrected throughout, and a permanent counting rule now excludes founder/team self-orders from every metric (A4).
+
+**Revised diagnosis — the question has changed.** The Aug 15 entry ranked three suspects for the zero-order start. All three are now resolved, and none of them is the real problem:
+
+| # | Suspect | Status as of Aug 16 |
+|---|---|---|
+| 1 | iOS not live | **RULED OUT** — iOS was never missing. Live from Aug 13, so it explains nothing. |
+| 2 | Funnel break | **RULED OUT for the happy path** — orders complete end-to-end through 400050 addresses and Razorpay. But see below: "works" and "converts" are different claims, and the task-0 test on a friend's phone is now *more* important, not less. |
+| 3 | No in-market demand | **PARTIALLY ANSWERED** — 2 strangers-adjacent orders (building WhatsApp group / friends) in 4 days. Demand exists but is thin, and no order has yet come from someone outside Adi's reach. |
+
+**The real finding: a conversion problem, not a traffic problem.**
+
+- **40 installs in 4 days is fine** — 10/day against the 12.9/day the month needs. The top of the funnel is roughly on plan.
+- **2 orders from 40 installs is a 5% install→first order rate.** The plan's bear case assumes **20%**; A5's kill line is **15%**. Bear assumptions predicted ~8 orders from those 40 installs. We got 2.
+- **At 5%, the August target is arithmetically unreachable** — 67 orders would need 1,340 installs against a 245 target.
+- **AOV is ₹360 vs ₹500 bear**, on n=2. Noted, not yet acted on.
+
+So the story of the first four days is: **people are downloading the app and then not buying.** Every hypothesis from Aug 15 was about whether ordering was *possible*. The evidence now says it is possible and people still aren't doing it. That is a different, harder problem, and it is the only one worth working on this week.
+
+**What to do about it — in this order (this replaces "do more outreach" as Week 1's priority):**
+
+1. **Watch someone install and open the app cold, in person, without helping them** (Week 1 task 0c, now the most valuable 30 minutes available). You need to see where the 95% stop: is it the shelf, the prices, the delivery-hours window, the address step, the payment sheet? The metrics sheet will never tell you this — only watching will.
+2. **Ask the 38 who didn't order.** You largely know who they are (building group, friends). One-to-one: *"You downloaded Cosmo and didn't order — genuinely, what stopped you? Price, delivery timing, nothing you wanted, or just busy? Blunt answers help most."* Ten replies to this are worth more than 100 new installs.
+3. **Only then decide what to change.** Do not guess at a fix — a discount, a new banner, more flyers — before the answers are in. The 5% is a symptom whose cause is currently unknown, and the cost of guessing wrong is a week.
+
+**Compressed, not shifted.** ~~Sep 1 (associate start),~~ Sep 15 (V2 live), Nov 8 (Diwali) and the November fundraise restart are date-fixed and cannot move, so August compresses instead of pushing everything right. *(The Sep 1 associate start was one of the anchors forcing this compression; the hire was cancelled Aug 16 — see A1a — but the compressed structure stays, since the other three anchors still hold and August's days are already gone.)*
+
+| Week | New dates | Content |
+|---|---|---|
+| Week 1 | **Aug 13–19** | Launch tasks as written (codes, sheet, champions, print, flyers) — catch-up |
+| Week 2 | **Aug 20–26** | ~~Meta ads live + influencer outreach~~ **HELD (D2, see gate below)** + ~~associate hiring~~ **cancelled (A1a)** → week's real content is the conversion work |
+| Weeks 3+4 merged | **Aug 27–31** | Referral live + reviews push + win-back on + month close |
+
+**August kill rules SUSPENDED, one exception.** Part D does not fire on August data — 11 days of ad spend cannot verdict a channel (A5 needs ₹15k spent), and D4's repeat circuit-breaker needs a 14-day cohort that doesn't exist until Aug 27. **D2 (never buy traffic into a leaky funnel) stays fully live and is the governing rule right now** — paid ads do not start until the funnel has produced real orders from organic + societies. Target start: **Thu Aug 20**.
+
+**D2 gate — RESOLVED, and it says HOLD (Aug 16).** The gate had two conditions. The first is met, the second fails decisively:
+
+- ✅ **Orders exist end-to-end** — checkout, payment and delivery all work.
+- ❌ **Install→first order = 5.0%** (2 real orders / 40 installs), against a **15% floor**. This is not a marginal miss; it is a third of the minimum and a quarter of the bear case.
+- ❌ **No attribution** — promo codes still don't exist, so Meta spend could not be separated from organic even if it worked.
+
+**Decision: paid ads do NOT start Aug 20/21. The Meta launch (Week 2 tasks 1, 2) is HELD until install→order clears 15%.** This is D2 doing exactly the job it was written for. The August Meta line (₹35,000) is not cancelled or reallocated — it stays in the budget, unspent, until the funnel earns it.
+
+*Note on formal scope:* D2's literal trigger is "<15% after 200 paid installs," and we have 40 organic installs and zero paid. So this is not yet a formal D2 kill — it is the C0 launch gate failing on a small sample. The distinction matters for the record but not for the decision: a 5% rate is four times worse than the assumption the entire acquisition model rests on, and the correct response to that reading is never "buy more traffic and see." **Re-check on Wed Aug 19 and again at the Aug 31 close.** If the rate clears 15% on a larger sample, ads start immediately at ₹1,500/day; C0's suspension of D1/D3/D4 still holds for whatever August data they generate.
+
+**What the held ad budget does NOT mean:** it does not mean August acquisition stops. Societies (Week 1 task 4), flyers (task 6) and referral (Week 3) are all unaffected and all still due — they are cheap enough to run into an imperfect funnel, and per A2 they were always meant to carry ~69% of installs anyway. Only the paid line waits.
+
+**September Meta budget held flat at ₹1,500/day** regardless of the Aug 31 close — the month-close decision in Week 4 task 6 would rest on ~11 days of ad data, too thin to justify scaling in either direction. Revisit at the Sep 15 fortnightly review instead.
+
+**Weekday labels corrected (Aug 15, extended Aug 16).** August 2026 runs Sat Aug 1 → Mon Aug 31. All weekday names on August tasks below have been corrected to the real calendar (Aug 13 = **Thursday**, Aug 15 = Saturday, **Aug 16 = Sunday**, Aug 17 = Monday, Aug 18 = Tuesday, **Aug 19 = Wednesday**, Aug 20 = Thursday, Aug 21 = Friday, Aug 22 = Saturday, Aug 27 = Thursday, Aug 29 = Saturday, Aug 30 = Sunday, Aug 31 = Monday). Weekday names inside "(was …)" markers are the original pre-slip labels and are left as written for traceability — some of those were already wrong in the pre-launch draft; don't execute off them.
+
+~~**Now late and blocking:** the associate JD (scheduled Aug 10) is unposted.~~ **❌ RESOLVED Aug 16 — the hire is cancelled** (Adi's decision; see A1a). This is no longer a blocking item; the JD, screening, interviews, offer and Sep 1 onboarding are all struck from the plan, and the ₹1,00,000 moves to unallocated reserve.
+
+### Week 1 (Aug 13–19) — LAUNCH (slipped from Aug 1–7). Spend: ~₹30,000. Goal: 80 installs, 20 orders, tracking live. **Progress at Sun Aug 16 (day 4 of 7): 40 installs of 80 · 2 real orders of 20 (3 further orders were Adi's own and don't count).** Sequence below is re-ordered for the catch-up: diagnose first, because tasks 1–2 were skipped and the funnel converts at 5%.
+
+**Week 1 goal check — split verdict.** Installs are on pace (40/80 at the halfway mark). Orders are not: 2 in 4 days against 20. The two halves of that goal are now known to be independent problems, and only the second one matters. **Do not respond by chasing installs** — 40 more installs at a 5% rate buys 2 more orders. The week's remaining value is in tasks 0, 1 and 2 (see what's breaking, make it measurable) and task 4 (societies — the one channel that reaches people who can actually order tonight). Missing 20 orders is survivable. Reaching Aug 19 still not knowing *why* people don't buy is not.
+
+0. **Sun Aug 16 — diagnose before doing anything else.** (a) ✅ DONE — **40 installs** Aug 13–16. ⚠ Still owed: the **Android/iOS split**. One number was reported; the plan needs two, because iOS and Android convert differently and you now have a conversion problem specifically. Pull Play Console → Statistics → Installs and App Store Connect → Analytics separately and record both. (b) ✅ RESOLVED — App Store is **LIVE, and was live from launch day Aug 13**, so iOS never blocked anyone. (c) Full test order on a **friend's** phone in Bandra West, not your own (your account and address are likely whitelisted) — do it on an **iPhone and an Android**, one each. Walk them through it live: app opens to shelf? scores render? cart total appears? **does 400050 get accepted at address entry?** are delivery hours shown? does Razorpay's UPI sheet complete? does the order fire into the ops Telegram group? **Still worth doing even though 5 orders succeeded** — you're now hunting a partial break (an address format the gate rejects, a time window that silently blocks ordering), not a total one. Whatever breaks, Rohit fixes Monday. (d) One-to-one (not broadcast) message five people you know are in Bandra West: *"Did you get a chance to open the app? Genuinely — did it work, or did something break? Tell me the truth, it helps more than a compliment."* Five honest answers beat every metric on this list. (e) **Call the 2 real customers** (not your own 3 orders). They are the only paying evidence you own: how did they hear, what nearly stopped them, would they order again this week. Ten minutes each, and it doubles as the B2 feedback touch. (f) **Then message the ~38 who installed and didn't order** — this is now the highest-value conversation available, see C0. One-to-one, blunt ask, no pitch.
+
+
+1. **Sun Aug 16 (was Fri Aug 1) — attribution first.** ⚠ STILL NOT DONE — now the single highest-value task in the week. The 5 orders already received are permanently unattributed; every order from here is only as traceable as the codes you create in the next hour. Create promo codes in the admin panel, all ₹100 off first order, min order ₹300: `BANDRA100` (general/Instagram), `SOC100` (societies), `FLYER100` (flyers), plus per-champion codes `PALI100`, `MARY100`, etc. Every future install source is identified by which code its first order uses. No code = organic.
+2. **Sun Aug 16 (was Fri Aug 1) — build the metrics sheet.** ⚠ STILL NOT DONE — do it today and backfill Aug 13–16, including the 5 orders (mark their source column "personal network — unattributed"). Google Sheet, one row per day, columns: date, **installs Android**, **installs iOS** (two separate columns — the rates differ and you want to see it), orders, GMV, AOV, orders by each code, ad spend, notes. Tabs 2–3: weekly rollup, cohort repeat tracker. 30 minutes, do not overbuild.
+3. **Thu Aug 13 — go live on BOTH stores. ✅ DONE.** Google Play and App Store both shipped on launch day. The app IS the launch — no catalog, no chat ordering. Launch outreach actually executed: WhatsApp groups, Adi's own building, and friends & family. **Result by Aug 16: 5 orders.** Standing rules from this task remain in force — if anyone tries to order over WhatsApp, reply warmly and send the store link; every order must flow through the app so payments, attribution and push notifications all work. Instagram carousel pipeline runs nightly, leave it alone.
+   - ⚠ **One thing to check today:** the drafted launch message told iPhone users to "hang tight ~10 days." iOS was live, so if any version of that line actually went out, those contacts were told not to download an app they could have downloaded. Scroll back through what you sent — anyone who got a Play-Store-only link or the "hang tight" line gets a one-to-one correction now: *"Correction — iPhone version has been live since day one. Here it is: [App Store link]. ₹100 off with BANDRA100."*
+4. **Sun Aug 16 (was Sat Aug 2) — recruit society champions, round 1.** ⚠ SKIPPED AT LAUNCH — **today is the day, and it is the most important task on this page.** Partial credit: posting in your own building and in WhatsApp groups (Aug 13–16) was the right instinct and is part of where the 5 orders came from — but it was one building, done once, with no code attached, so it can't be measured or repeated. The champion mechanic below is the systematic version of what you already did by hand. This, not the broadcast, is the order engine: a society group forward reaches ~80 in-radius households who can order tonight, whereas the personal network is scattered across Mumbai and mostly outside 400050. From the existing list of 8–10 Bandra West societies (context/tasks.md), personally message one resident per building you know (or the society WhatsApp admin): *"Hey [name] — I've started Cosmo, 20-min delivery of genuinely healthy snacks, every product health-scored. Would you forward one message to the society group? Everyone gets ₹100 off with code [SOC100/building code], and for every 5 neighbours who order, you get ₹200 credit."* Target: 5 champions agreed by Sunday.
+5. **Sun Aug 16 (was Sun Aug 3) — print order.** Finalize with Avirup and send to a local printer: 2,000 A5 flyers (QR → a smart/universal link that auto-routes to Play Store or App Store depending on the phone — ask Rohit to set one up in 10 minutes via Branch.io free tier or a simple redirect page; don't print a Play-Store-only QR that goes stale in 10 days — code FLYER100, one line: "Every snack scored 0–10. Delivered in 20 minutes.") + 500 rating-card inserts + 500 "RATED = ₹50 off" cards. Budget ₹12,000 from creative.
+6. **Mon–Tue Aug 17–18 (was Mon–Thu Aug 4–7) — flyer drop #1.** You + driver, during delivery downtime: 800 flyers into Pali Hill, Mount Mary, and St. Andrews Road buildings (lobby noticeboards + under doors where allowed). Log which buildings got flyers.
 7. **All week:** deliver every order yourself where possible; talk to customers at the door for 60 seconds — what they wish you stocked. Write every answer down.
-8. **All week — log your hours.** Keep a running note of where your time goes (ops / content / brands / admin / delivery). Three weeks of this writes the associate's real job description in Week 2–3 — from data, not guesses.
+8. **All week — log your hours.** Keep a running note of where your time goes (ops / content / brands / admin / delivery). ~~Three weeks of this writes the associate's real job description.~~ **Re-purposed Aug 16:** with no hire, this log is now your early-warning system for the risk A1a accepts — if B5a-column work (uploads, data entry, brand admin) passes **~10 hours/week**, that's the trigger to reopen the hire or buy freelance hours out of the ₹1,00,000 reserve. Keep logging; the number decides.
+9. **Sun Aug 16 — iOS ACTIVATION (moved up from Week 2 task 6).** ⚠ **Corrected Aug 16: iOS was live from launch day, Aug 13 — not Aug 15.** So there was never a blocked-iPhone period to unblock; what remains is making sure every surface actually *says* iOS is available, because for three days the messaging behaved as if it wasn't. Do all four today: (a) re-message every iPhone contact from the launch outreach, one-to-one, not as a broadcast: *"iPhone version's live — [App Store link]. ₹100 off your first order with BANDRA100."* (see task 3's correction note if the "hang tight" line went out); (b) ask Rohit for the smart/universal link **before** the print order goes out — the flyer QR must route iOS and Android correctly. **This is the one irreversible item in the week:** 2,000 printed Play-Store-only QRs cannot be un-printed, and roughly half of Bandra West is on iPhone. Print order does not go to the printer until the link exists; (c) add "Download on the App Store" to the Instagram bio/link-in-bio alongside Play Store; (d) when Meta campaigns are built Aug 21, target **both** OS from the start. From today, B1's daily install count comes from Play Console **+ App Store Connect**, tracked as separate columns — iOS vs Android install→order rates will differ and you want to see it.
 
-**Do NOT run paid ads in Week 1.** Let organic + societies produce the first ~50 customers so the funnel (app → checkout → delivery) is proven before you pay for traffic.
+**Do NOT run paid ads in Week 1.** Let organic + societies produce the first ~50 customers so the funnel (app → checkout → delivery) is proven before you pay for traffic. **This rule is REINFORCED, not relaxed, by the launch slip (Aug 15) — and it survives the first 5 orders (Aug 16).** The instinct with 12 days lost is to buy traffic and catch up — don't. Orders now exist, which clears D2's first condition, but the install→order *rate* is still unknown and there are still no promo codes, so ad spend could not be told apart from organic even if it worked. ₹1,500/day into an unmeasured funnel burns ~₹18,000 and teaches you nothing. Ads start **Thu Aug 20**, subject to the two-part check in C0: install→order ≥15% and codes live.
 
-### Week 2 (Aug 8–14) — Meta ads go live. Spend: ~₹27,000. Goal: 100 installs cumulative this week, 25 orders, CPI baseline measured.
+### Week 2 (Aug 20–26, slipped from Aug 8–14) — Meta ads go live. Spend: ~₹27,000. Goal: 100 installs cumulative this week, 25 orders, CPI baseline measured. **⛔ GATE FAILED (Aug 16) — tasks 1, 2 and 2b are ON HOLD.** Install→first order is **5.0%** (2 real orders / 40 installs) against a 15% floor, and promo codes still don't exist. Per D2 and C0, **no Meta spend and no paid influencer bookings start Aug 20/21.** Re-check Wed Aug 19; if the rate clears 15%, launch immediately and the rest of this week runs as written. Until then Week 2's real content is the conversion work in C0 (watch a cold install, ask the non-buyers) plus tasks 3, 4 and 7, which cost nothing and are unaffected.
 
-1. **Mon Aug 8 — creative production day (3 hours, fully faceless — see the Content Format Bank below Part C).** Make 3 ads with AI + Canva (Pinterest for layout references — search "snack brand ad", "grocery delivery ad"): (a) 15-sec reel: screen-record the app scrolling scores, AI voiceover (ElevenLabs): "Blinkit delivers anything. We deliver only what's worth eating — every product scored 0–10, with the reason why. 20 minutes, Bandra West."; (b) static: one product, its Cosmo Score badge, one line of its rating explanation; (c) "Score Reveal" reel: product on a plain surface, big animated 0–10 counter lands on its score, three text-overlay reasons why — no humans, no voice needed.
-2. **Tue Aug 9 — launch Meta campaign #1.** Ads Manager → App Installs objective (Advantage+ off, manual) → 1 campaign, ₹1,500/day total → 3 ad sets at ₹500/day each: (i) radius 2.5km around Mount Mary, interests: health food, organic food, fitness; (ii) same radius, broad 25–45 no interests; (iii) same radius, interest: gourmet food + D2C shopping. Each ad set runs all 3 creatives. Placement: Instagram Reels + Feed only. Do not touch for 5 days — the algorithm needs to learn.
-2b. **Tue Aug 9 — paid influencer outreach #1.** Shortlist 10 Bandra/Mumbai nano-influencers (3k–20k followers, food/health/local-life content, real Bandra audience — check their comments for local names). DM: *"We're Cosmo — healthy snacks scored 0–10, delivered in 20 min in Bandra West. Paid collab: ₹[3–5]k for 1 reel + 1 story showing your order arriving and your favourite product's score. Usage rights included so we can run it as an ad. Interested?"* Every influencer gets their own promo code (e.g. `RIYA100`) so the sheet shows exactly what each collab produced. Book 2–3 for Aug at ≤₹5k each; always include ad usage rights.
-3. **Wed Aug 10 — champions round 2.** Follow up the 5 champions with their building's install/order count ("3 neighbours ordered — 2 more and your ₹200 credit unlocks"). Recruit 3 more buildings (target 8 total).
+1. **Thu Aug 20 (was Mon Aug 8) — creative production day (3 hours, fully faceless — see the Content Format Bank below Part C).** Make 3 ads with AI + Canva (Pinterest for layout references — search "snack brand ad", "grocery delivery ad"): (a) 15-sec reel: screen-record the app scrolling scores, AI voiceover (ElevenLabs): "Blinkit delivers anything. We deliver only what's worth eating — every product scored 0–10, with the reason why. 20 minutes, Bandra West."; (b) static: one product, its Cosmo Score badge, one line of its rating explanation; (c) "Score Reveal" reel: product on a plain surface, big animated 0–10 counter lands on its score, three text-overlay reasons why — no humans, no voice needed.
+2. **Fri Aug 21 (was Tue Aug 9) — launch Meta campaign #1.** Ads Manager → App Installs objective (Advantage+ off, manual) → 1 campaign, ₹1,500/day total → 3 ad sets at ₹500/day each: (i) radius 2.5km around Mount Mary, interests: health food, organic food, fitness; (ii) same radius, broad 25–45 no interests; (iii) same radius, interest: gourmet food + D2C shopping. Each ad set runs all 3 creatives. Placement: Instagram Reels + Feed only. Do not touch for 5 days — the algorithm needs to learn.
+2b. **Fri Aug 21 (was Tue Aug 9) — paid influencer outreach #1.** Shortlist 10 Bandra/Mumbai nano-influencers (3k–20k followers, food/health/local-life content, real Bandra audience — check their comments for local names). DM: *"We're Cosmo — healthy snacks scored 0–10, delivered in 20 min in Bandra West. Paid collab: ₹[3–5]k for 1 reel + 1 story showing your order arriving and your favourite product's score. Usage rights included so we can run it as an ad. Interested?"* Every influencer gets their own promo code (e.g. `RIYA100`) so the sheet shows exactly what each collab produced. Book 2–3 for Aug at ≤₹5k each; always include ad usage rights.
+3. **Sat Aug 22 (was Wed Aug 10) — champions round 2.** Follow up the 5 champions with their building's install/order count ("3 neighbours ordered — 2 more and your ₹200 credit unlocks"). Recruit 3 more buildings (target 8 total).
 4. **Thu–Fri — flyer drop #2:** remaining 1,200 flyers, Carter Road / Turner Road side.
-5. **Sun Aug 14 — first ads reading.** Note CPI per ad set in the sheet. No action yet unless CPI >₹100 (then kill that ad set only).
-6. **Aug 8–11 — App Store goes live.** The moment it's approved: re-message every iPhone contact you noted in Week 1 ("iPhone's here — [App Store link]"), update the smart link so it now actually routes iOS traffic (it was pointing everyone to Android until this moment), switch Meta app-install campaigns to target both platforms (Ads Manager → ad set → both OS, or split into an iOS ad set if early data suggests different behaviour), and add "Download on the App Store" to the Instagram bio/link-in-bio alongside Play Store.
-7. **Wed Aug 10 — post the associate JD.** Title: "Brand & Ops Associate — Cosmo (Bandra West, in-person)". Body: what Cosmo is (2 lines), the B5a delegate column as the duties list, "₹20,000/month, start Sep 1, work from Bandra West". Post on: Internshala, LinkedIn (your profile + Kunal reposts), your college/startup WhatsApp groups, and ask the society champions ("know a smart fresh grad in Bandra?" — a local hire who knows the neighbourhood is worth extra). Goal: 20+ applicants by Aug 17.
+5. **Wed Aug 26 (was Sun Aug 14) — first ads reading.** Note CPI per ad set in the sheet. No action yet unless CPI >₹100 (then kill that ad set only).
+6. **App Store — ✅ LIVE since launch day, Thu Aug 13, 2026** (corrected Aug 16; the Aug 15 date recorded earlier was the confirmation date, not the go-live date). **Task MOVED to Week 1 task 9 and due immediately; nothing left to do here.**
+7. **❌ CANCELLED (Aug 16, 2026) — associate JD.** Adi decided not to hire. Nothing to post, nothing to screen, no Sep 1 start. **This task is dead for the rest of the plan** — see A1a for where the ₹1,00,000 goes and B5a for where the work goes. Do not reintroduce it except through a fortnightly-review decision (A1a lists the triggers that would justify reopening it).
 
-### Week 3 (Aug 15–21) — Referral live + first checkpoint. Spend: ~₹28,000. Goal: cumulative 250 installs, 60 orders, referral launched.
+### Weeks 3+4 MERGED (Aug 27–31, compressed from Aug 15–31) — Referral live + checkpoint + retention on + month close. Spend: ~₹53,000 combined. Goal: MONTH (re-baselined) — 245 installs, 67 orders, ₹34,000 GMV. Repeat rate is NOT a goal this month — no cohort reaches 14 days before Aug 27.
 
-1. **Mon — referral goes live.** Mechanic: existing customer shares code `REF-[name]`; new customer gets ₹100 off first order; referrer gets ₹100 credit on that order's delivery. Track manually in the sheet until Rohit adds it in-app (ask him Monday; if it costs >2 days of his time, stay manual — a Google Form + codes works fine at this volume). Announce via broadcast: *"Know someone who reads labels? Give them ₹100 off Cosmo, get ₹100 credit when they order. Your code: REF-[name]."*
-2. **Tue — Meta checkpoint #1 (₹7–8k spent by now).** In the sheet compute per ad set: CPI and install→order %. Apply: CPI ≤₹60 and conversion ≥15% → keep; else kill the ad set and move its ₹500/day to the best one. If ALL ad sets CPI >₹60 → pause campaign, rebuild creatives Wed, relaunch Thu with ₹1,000/day (rule D1).
-3. **Wed — reviews push #1 (both stores).** WhatsApp every customer so far individually: the RATED message from B2. Goal: 25 reviews by Sunday, split across Play Store and App Store (App Store should be live by now). Reviews are your cheapest install driver (ASO) — treat this as a real task, not admin.
-4. **Fri — cohort math #1:** 14-day repeat rate for Week-1 customers. Write it at the top of the sheet. This number decides Week 6.
-5. **Weekend — champion expansion to 10 buildings.**
-6. **Thu–Fri Aug 18–19 — associate interviews.** Screen applicants to 5; 30-minute calls each. The filter (in order): (a) give them a real product label photo — "list the ingredients and nutrition into this exact format" (the context/tech.md metafield schema); accuracy + care beats speed; (b) have them draft a 3-line follow-up WhatsApp to a brand that hasn't returned the onboarding form — tests written politeness; (c) ask what they ate yesterday — you need someone who actually cares about food. Ignore college pedigree; hire for conscientiousness.
+Both original weeks' task lists below run inside Aug 27–31. Where a task needs elapsed time that no longer exists (cohort math, ads checkpoints), the note says what to do instead.
 
-### Week 4 (Aug 22–31) — Month close + retention machine on. Spend: ~₹25,000. Goal: MONTH GOAL — 400 installs, 110 orders, ₹55,000 GMV, repeat ≥25%.
+1. **Thu Aug 27 — referral goes live.** Mechanic: existing customer shares code `REF-[name]`; new customer gets ₹100 off first order; referrer gets ₹100 credit on that order's delivery. Track manually in the sheet until Rohit adds it in-app (ask him Monday; if it costs >2 days of his time, stay manual — a Google Form + codes works fine at this volume). Announce via broadcast: *"Know someone who reads labels? Give them ₹100 off Cosmo, get ₹100 credit when they order. Your code: REF-[name]."*
+2. **Fri Aug 28 — Meta checkpoint #1 (₹7–8k spent by now).** In the sheet compute per ad set: CPI and install→order %. Apply: CPI ≤₹60 and conversion ≥15% → keep; else kill the ad set and move its ₹500/day to the best one. If ALL ad sets CPI >₹60 → pause campaign, rebuild creatives, relaunch with ₹1,000/day (rule D1). **Slip note:** ads will have run ~7 days by this date. Treat this as a directional read only — do NOT permanently cap Meta off it (D1's ₹15k-spent threshold is not met). The real verdict moves to the Sep 15 fortnightly review.
+3. **Fri Aug 28 — reviews push #1 (both stores).** WhatsApp every customer so far individually: the RATED message from B2. Goal: 25 reviews by Sunday, split across Play Store and App Store (App Store should be live by now). Reviews are your cheapest install driver (ASO) — treat this as a real task, not admin.
+4. **Sat Aug 29 — cohort math #1:** 14-day repeat rate for the Aug 13–19 cohort — the first cohort old enough to measure, and only just. Write it at the top of the sheet, but label it PROVISIONAL (n will be small). This number informs, but does not decide, September. **D4 does not fire on it.**
+5. **Sun Aug 30 — champion expansion to 10 buildings.**
+6. **❌ CANCELLED (Aug 16) — associate interviews.** No hire, so no screening, no calls, no offer. The two evenings this would have taken go to the conversion work in C0 instead. *(Filter criteria retained in git history if the decision is ever reopened.)*
 
-1. **Mon — Shelf Drop broadcast becomes permanent** (every Sunday hereafter, per B3): *"This week on the shelf: [3 new/featured SKUs + scores]. My pick: [SKU] — [one-line why from its rating explanation]."*
-2. **Tue — win-back flow on.** Every customer inactive 21 days gets: *"We miss you at Cosmo — here's ₹75 off this week: WB75."* Maintain a simple inactive list in the sheet; send manually each Tuesday (10 min).
-3. **Wed — brief Avirup for September:** 6 new ad creatives from your Pinterest board + AI drafts; he polishes to Cosmo brand (Sage Green, Playfair/Work Sans). His retainer covers this — ₹0 extra.
-4. **Mon Aug 24 — make the associate offer.** ₹20k/month, Sep 1 start, 1-month notice period, 3-month review with a path to ₹25k if they own the B5a column cleanly. Backup candidate kept warm until day 3 of the hire actually showing up.
+### Week 4 tasks (folded into Aug 27–31 per the merge above) — Month close + retention machine on. Original goal (400 installs / 110 orders / ₹55,000 GMV / repeat ≥25%) is SUPERSEDED by the re-baselined August target in A4: **245 installs, 67 orders, ₹34,000 GMV, repeat not measured.**
+
+1. **Sun Aug 30 — Shelf Drop broadcast becomes permanent** (every Sunday hereafter, per B3): *"This week on the shelf: [3 new/featured SKUs + scores]. My pick: [SKU] — [one-line why from its rating explanation]."*
+2. **Sat Aug 29 — win-back flow on.** Every customer inactive 21 days gets: *"We miss you at Cosmo — here's ₹75 off this week: WB75."* Maintain a simple inactive list in the sheet; send manually each Tuesday (10 min).
+3. **Thu Aug 27 — brief Avirup for September:** 6 new ad creatives from your Pinterest board + AI drafts; he polishes to Cosmo brand (Sage Green, Playfair/Work Sans). His retainer covers this — ₹0 extra.
+4. **❌ CANCELLED (Aug 16) — associate offer.** No hire. See A1a.
 5. **Thu Aug 27 — the Avirup conversation** (after screens are done, before September billing). Script: *"All V2 screens are locked and design is becoming project-based, so from Sep 1 let's move to per-assignment — you keep working with the brand you built, on your own schedule. Rate card: static ₹500, reel polish ₹800, print-ready file ₹1,000, screen mockup ₹1,500, 48-hour turnaround."* Adjust rates with him once, in this meeting — then never negotiate per task. Do NOT say "there's not enough work for you." Expect ₹5k/month normal, ₹8k in Oct–Nov (Diwali). Saves ~₹44k vs the retainer.
-6. **Aug 31 — month close per B5.** Fill the actuals vs A4. Run Part D fully. Decide September's Meta budget: gates passed → ₹2,000/day; CPI ₹60–80 → hold ₹1,500; worse → ₹500/day floor and push the savings into referral (D1).
+6. **Aug 31 — month close per B5.** Fill the actuals vs the **re-baselined** A4 row (245/67/₹34,000), not the original 400/110/₹55,000. **Do NOT run Part D fully this month** — kill rules are suspended for August per C0 (D2 excepted), because no channel has the elapsed time or spend its A5 verdict requires. **September's Meta budget is pre-decided: hold ₹1,500/day**, regardless of what the Aug 31 numbers say — ~11 days of ad data cannot justify scaling up or cutting down. The real budget decision moves to the Sep 15 fortnightly review, on a fortnight of clean data.
 
 ### Weeks 5–6 (Sep 1–14) — Scale what worked. Spend: ~₹65,000. Goal: 250 installs, 80 orders in the fortnight; first investor update sent.
 
-0. **Sep 1–5 — associate onboarding week.** Day 1: read this playbook + context/ files; shadow you on deliveries. Day 2: product uploads — they add 2 SKUs end-to-end (photos in, nutrient metafields, listing check) while you watch; then they do 3 alone and you review. Day 3: brand admin — hand over the follow-up list (Ray Health, MOM, Prustlr + consignment top-ups); they send Fable-drafted messages from a shared template doc. Day 4: they take over the daily metrics entry (B1 step 1) and the label→metafield backlog. Day 5: first solo day; you review everything at 6pm. From Week 2 they own the B5a column and you review by exception. Write a one-page checklist for each duty as you hand it over — the checklist IS the training.
+0. **❌ CANCELLED (Aug 16) — associate onboarding week.** No hire (A1a). **Use this week instead to set up the systems that were supposed to absorb the associate's work:** (a) block a fixed weekly shelf-maintenance slot in the calendar (suggest Wednesday 2–5pm) and treat it as unmovable — per B5a rule 1; (b) decide and write down which ~40 SKUs are the maintained core, and let the tail sit unlisted rather than wrong — B5a rule 2; (c) build the label→metafield entry into a repeatable 10-minute-per-SKU routine with Fable drafting, so the backlog is chippable rather than a wall; (d) keep doing B1 step 1 daily yourself — it never transfers now.
 1. **Sep 1:** set Meta to the budget decided at month close. Swap in Avirup's 6 new creatives; keep the 2 best old ones running (never kill your control ad).
 2. **Sep 2:** champion program v2 — push to 15 buildings. Champions with 0 installs after 3 weeks: thank and replace (the building code tells you exactly who produced).
 3. **Sep 5:** launch "Score 8+ Box" — a ₹599 curated bundle of only 8+ scored SKUs. Purpose: lift AOV toward ₹550 and give ads a concrete product to sell. Feature it in one Meta ad set.
@@ -283,6 +408,8 @@ Every ad, reel, and post in this plan is made from these formats. None requires 
 
 # PART D — KILL RULES (check fortnightly per B4; these override Part C)
 
+**⚠ AUGUST 2026 SUSPENSION (logged Aug 15, 2026).** Because launch slipped to Aug 13, no channel accumulates the elapsed time or spend that A5's verdict column requires before Aug 31. **Rules D1, D3, D4 do not fire on August data** — a truncated month must not trigger a permanent channel kill or a −40% September cut. **D2 remains fully in force and is the governing rule of the launch recovery** (never buy traffic into a leaky funnel — and the funnel is currently unverified). D5 (monthly cap), D6 (contingency locked to Oct 1), D8 and D9 are date-based and unaffected. Normal Part D operation resumes at the **Sep 15** fortnightly review.
+
 1. **Meta CPI:** >₹60 after first ₹15k → pause, rebuild creative+audience, retest with ₹5k. Two failed retests → Meta capped ₹500/day permanently; budget → referral + societies.
 2. **Funnel:** install→first order <15% after 200 paid installs → STOP scaling all acquisition; fix onboarding/first-order offer first. Never buy traffic into a leaky funnel.
 3. **Channel ROAS:** any channel >₹300 cost-per-first-order at two consecutive fortnightly checks → kill it, move budget to the best performer. No sentimental channels.
@@ -308,7 +435,9 @@ Every ad, reel, and post in this plan is made from these formats. None requires 
 | Total projected to date (per current week) | ₹0 |
 | Cumulative variance (paid vs. projected) | ₹0 |
 | % of ₹15,00,000 ceiling used (paid) | 0% |
-| Current week | Week 0 (Jul 21–31) |
+| Current week | **Week 1 (Aug 13–19)** — day 4 of 7 as of Sun Aug 16; launch slipped from Aug 1 to Aug 13, see C0 |
+| Trading to date (Aug 13–16) | **40 installs · 2 customer orders · ₹720 GMV · ₹202 Cosmo revenue** (3 further orders were Adi's own and are excluded — see A4). Install→order 5.0%. |
+| Paid ads status | **HELD** — Aug 20/21 Meta launch does not go ahead; install→order below the 15% floor (D2 / C0). August Meta line ₹35,000 stays budgeted and unspent. |
 
 *(Updated every time a new expense is logged.)*
 
@@ -325,7 +454,7 @@ Cumulative projected: ₹0 · Cumulative actual (paid): ₹0 · Cumulative varia
 
 **⚠ Flag (RESOLVED Jul 23, 2026):** this is a straight inventory purchase, not consignment. Adi confirmed the model is **primarily consignment with a few brands sold to us outright** — so this is an accepted exception, not a deviation. Still note: this ₹18,000 doesn't map to any Part A/C budget line and isn't covered by the ₹15L growth/ops ceiling math; track outright-purchase inventory spend separately from the growth budget.
 
-### Week 1 (Aug 1–7) — Launch
+### Week 1 (Aug 13–19, slipped from Aug 1–7) — Launch
 Projected: ₹30,000 · Actual (paid): ₹0 · Committed (pending): ₹4,400 · Variance: ₹0
 Cumulative projected: ₹30,000 · Cumulative actual (paid): ₹0 · Cumulative variance: −₹30,000
 | Date | Item | Category | Amount | Status |
@@ -333,26 +462,21 @@ Cumulative projected: ₹30,000 · Cumulative actual (paid): ₹0 · Cumulative 
 | Jul 22 (quoted) | Coupon/discount card printing — quote 1 | Creative + print (matches the Week 1 print-order line: rating cards + "RATED = ₹50 off" cards, ₹12,000 budget) | ₹2,500 | Pending (quoted, not yet paid) |
 | Jul 22 (quoted) | Coupon/discount card printing — quote 2 | Creative + print | ₹1,900 | Pending (quoted, not yet paid) |
 
-### Week 2 (Aug 8–14) — Meta ads go live
+### Week 2 (Aug 20–26, slipped from Aug 8–14) — Meta ads go live
 Projected: ₹27,000 · Actual: ₹0 · Variance: ₹0
 Cumulative projected: ₹57,000 · Cumulative actual: ₹0 · Cumulative variance: −₹57,000
 | Date | Item | Category | Amount | Status |
 |---|---|---|---|---|
 | — | — | — | — | — |
 
-### Week 3 (Aug 15–21) — Referral live + checkpoint
-Projected: ₹28,000 · Actual: ₹0 · Variance: ₹0
-Cumulative projected: ₹85,000 · Cumulative actual: ₹0 · Cumulative variance: −₹85,000
-| Date | Item | Category | Amount | Status |
-|---|---|---|---|---|
-| — | — | — | — | — |
-
-### Week 4 (Aug 22–31) — Month close + retention on
-Projected: ₹25,000 · Actual: ₹0 · Variance: ₹0
+### Weeks 3+4 MERGED (Aug 27–31, compressed from Aug 15–31) — Referral live + checkpoint + retention on + month close
+Projected: ₹53,000 (₹28,000 + ₹25,000) · Actual: ₹0 · Variance: ₹0
 Cumulative projected: ₹1,10,000 · Cumulative actual: ₹0 · Cumulative variance: −₹1,10,000
 | Date | Item | Category | Amount | Status |
 |---|---|---|---|---|
 | — | — | — | — | — |
+
+*Note: the combined ₹53,000 projection is retained in full even though the calendar window is shorter — the spend items (referral incentives, retention credits, print, ads) are volume-driven, not day-driven. If August closes materially under this figure, the underspend is banked, not rolled forward into September (D5: never borrow across months).*
 
 ### Weeks 5–6 (Sep 1–14) — Scale what worked
 Projected: ₹65,000 · Actual: ₹0 · Variance: ₹0
@@ -426,6 +550,11 @@ Cumulative projected: ₹8,53,000 · Cumulative actual: ₹0 · Cumulative varia
 
 ## E3. Notes
 
-- Cumulative projected across all periods (₹8,53,000) is the sum of Part C's per-week/fortnight variable spend estimates — it runs lower than the ₹15,00,000 all-in ceiling because Part C's "Spend" lines track growth/ops-cash-out, while A3's ₹15L figure also bakes in fixed costs, the associate's salary, and Avirup's retainer/assignments month-by-month. Both are tracked; this section reconciles actual-vs-Part-C-projection week by week, and E1's ceiling % is measured against the full ₹15,00,000.
+- Cumulative projected across all periods (₹8,53,000) is the sum of Part C's per-week/fortnight variable spend estimates — it runs lower than the ₹15,00,000 all-in ceiling because Part C's "Spend" lines track growth/ops-cash-out, while A3's ₹15L figure also bakes in fixed costs, Avirup's retainer/assignments month-by-month, and (until Aug 16) the associate's salary — now ₹1,00,000 of unallocated reserve instead. Both are tracked; this section reconciles actual-vs-Part-C-projection week by week, and E1's ceiling % is measured against the full ₹15,00,000.
 - Any week where actual > projected by a meaningful margin gets flagged against Part D kill rules (especially D5: never exceed a month's all-in by >15%) and against D6 (contingency release conditions).
+- **Launch slip (Aug 15, 2026):** launch moved Aug 1 → Aug 13. August week windows in E2 are re-dated to match C0 (Week 1 = Aug 13–19, Week 2 = Aug 20–26, Weeks 3+4 = Aug 27–31). Projected spend figures are UNCHANGED — the slip cost calendar days, not budget — so cumulative projected still reads ₹1,10,000 at August close and the ₹15,00,000 ceiling is untouched. Sep–Jan windows are unaffected.
+- **Aug 16, 2026 update:** first revenue — **2 customer orders, ₹720 GMV, ₹202 to Cosmo** (Aug 13–16), from the building WhatsApp group and friends. Three further orders were placed by Adi himself and are excluded from all metrics per the A4 counting rule. No spend was incurred against any of it (all organic), so the ledger below is unchanged and actual paid spend remains **₹0**. Order GMV is **not** budget and is not tracked in this ledger; it lives in the metrics sheet (Week 1 task 2) and the A4 actuals table.
+- **Aug 16, 2026 — paid ads held.** Install→first order is 5.0% (2/40) against a 15% floor, so the Week 2 Meta launch does not proceed (D2 / C0). **Budget effect: none yet.** The August Meta allocation (₹35,000) stays in A3 unspent rather than being reallocated — if the gate opens later in the month, spend resumes at ₹1,500/day; if August closes with it unspent, the underspend is banked, not rolled into September (D5).
+- **Aug 16, 2026 — associate hire CANCELLED (Adi's decision).** The ₹20k/month line is removed from Sep–Jan: A3's all-in drops from ₹13,20,000 to ₹12,20,000 and the ₹1,00,000 moves to **unallocated reserve** (A1a), not into any channel. The ₹15,00,000 ceiling is unchanged. Nothing was spent on recruitment, so there is no ledger entry to reverse. If the reserve is later deployed, it gets logged here as a normal spend against whatever category receives it.
+- Also corrected Aug 16: iOS was live from launch day Aug 13, not Aug 15 — no ledger impact, but it removes the assumed Android-only window from every August figure.
 - **Status convention:** every line item is either "Pending (quoted, not yet paid)" or "Paid." Only Paid amounts count toward Actual / cumulative actual / ceiling % — Pending amounts are shown for visibility (money committed but not yet out the door) and are called out separately in each week's header and in E1. When Adi confirms a Pending item has been paid, flip its Status to "Paid" and it rolls into that week's Actual total.

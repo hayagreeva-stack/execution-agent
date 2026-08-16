@@ -12,9 +12,10 @@ per-assignment from Sep 1, 2026 (rate card: static ₹500, reel polish ₹800, p
 
 **Rohit** — Developer. Built the QC pilot app (4-week build). Owns app tech/features.
 
-**Brand-ops associate** — ₹20k/month, Sep 1, 2026 start (recruited in Aug). Owns product
-uploads, nutrient data entry, brand admin/follow-ups, reconciliation cycles, rough-cut content.
-Adi keeps brand relationships, Cosmo voice, and final approvals.
+**Brand-ops associate** — ❌ **NOT HIRED. Adi cancelled the role on Aug 16, 2026** before any JD
+was posted. The ₹20k/month × 5 months (₹1,00,000) moved to unallocated reserve. All of its duties
+— product uploads, nutrient data entry, brand admin/follow-ups, reconciliation cycles, rough-cut
+content, daily metrics entry — are **Adi's**, batched into a weekly block (see plan B5a/A1a).
 
 **Pooja Mundra** — Former BD Manager, resigned (last day March 31, 2026). BD function is
 unmanned — Adi handles brand partners directly.
