@@ -10,6 +10,11 @@
 - Adi wants instruction-level execution detail — "write it like instructions for a child."
   You are the strategist brain; Adi executes.
 - Explain jargon plainly the first time it comes up — don't assume familiarity with growth/UX terms.
+- **This is not optional and the bar is lower than you think.** Aug 16: Adi had to ask what
+  "Android vs iOS install split", "cold install", and "where it breaks" meant, and how to actually
+  ask customers a question. Terms that read as plain English to a growth person are not. When
+  asking him for a number, say **where to click to get it** (Play Console → Statistics → Installs),
+  and when asking him to do something, give the literal script and the step order.
 
 ---
 
@@ -56,9 +61,11 @@ ahead (D2). The problem is conversion, not traffic — installs are on pace. Pla
 section C0 — August compressed (not shifted), targets cut to 245 installs / 67 orders /
 ₹34,000 GMV and **held despite the miss**, Part D kill rules suspended for August except D2.
 
-**Associate hire (₹1L, Sep 1) — Adi is reconsidering it entirely** (Aug 16, JD still unposted).
-Recorded as an open founder decision; recommendation was to defer to the Aug 31 close. Budget line
-held, not cancelled.
+**Associate hire — ❌ CANCELLED by Adi, Aug 16, 2026.** Decided outright ("no, we don't hire"), not
+deferred. ₹1,00,000 moved to unallocated reserve (NOT pushed into Meta — conversion is broken, so
+buying traffic is the wrong use); A3 all-in drops to ₹12,20,000, ceiling unchanged. All B5a duties
+are Adi's now, batched weekly. Watch the Week 1 task 8 hours log: >10 hrs/week on shelf/admin work
+is the trigger to reopen the hire or buy freelance data-entry hours from the reserve.
 
 Re-baseline lives in PR #2 (`claude/app-launch-no-orders-dw84en`, draft, open — no CI on this repo).
 
@@ -74,7 +81,7 @@ Open questions awaiting Adi's answer (he should report these back):
 - ~~Install→order rate~~ — **ANSWERED Aug 16: 5.0%.** Ads held. Re-check Wed Aug 19.
 - **Android/iOS install split** — 40 was reported as one combined number; the plan needs two.
 - **Why the other ~38 installers didn't order** — the top open question in the whole plan now.
-- **Associate: hire, drop, or defer?** — Adi's call, parked to the Aug 31 close.
+- ~~Associate: hire, drop, or defer?~~ — **ANSWERED Aug 16: no hire.** Closed.
 - **Counting rule (Aug 16):** never let Adi's own orders into a metric. He reported 5 orders and
   3 were his; taking that at face value would have shown 12.5% conversion instead of 5%. Ask
   "how many of those were yours?" whenever he reports order counts.
