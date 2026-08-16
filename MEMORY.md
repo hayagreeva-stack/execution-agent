@@ -46,20 +46,26 @@ changes how Adi wants people handled)
 truth for spend/progress; this section is for meta-notes: things in flight, open questions,
 follow-ups Adi raised that aren't yet resolved in the plan doc)
 
-**Launch slipped to Aug 13, 2026** (from Aug 1). As of Aug 15: 0 orders, and Adi is stressed
-about it. Plan re-baselined in section C0 — August compressed (not shifted), targets cut to
-245 installs / 67 orders / ₹34,000 GMV, Part D kill rules suspended for August except D2.
+**Launch slipped to Aug 13, 2026** (from Aug 1) — **Android AND iOS shipped the same day**; the
+"iOS lagged by 10 days" assumption was wrong and is corrected throughout the plan (Aug 16).
+**As of Aug 16: 5 orders** (up from 0 on Aug 15), all from WhatsApp groups + Adi's building +
+friends & family, all unattributed because promo codes still don't exist. Plan re-baselined in
+section C0 — August compressed (not shifted), targets cut to 245 installs / 67 orders /
+₹34,000 GMV, Part D kill rules suspended for August except D2.
 
 Re-baseline lives in PR #2 (`claude/app-launch-no-orders-dw84en`, draft, open — no CI on this repo).
 
 Open questions awaiting Adi's answer (he should report these back):
 - **Install counts** Aug 13–15 — Play Console *and* App Store Connect, tracked as two separate
   numbers (Android and iOS install→order rates will differ). Everything downstream depends on these.
-- ~~iOS App Store status~~ — **ANSWERED Aug 15: App Store is LIVE.** Was ranked the most likely
-  cause of the zero-order start; now ruled out. iOS tasks pulled forward from Week 2 into Week 1.
-- **Funnel test result** — especially whether the 400050 pincode gate accepts valid addresses
-  and whether delivery hours are visible/open. Now the top remaining suspect. Must be tested on
-  a friend's iPhone *and* Android, never Adi's own phone (whitelisted).
+- ~~iOS App Store status~~ — **CLOSED Aug 16: live since launch day Aug 13**, not Aug 15 (Aug 15
+  was only when Adi confirmed it). Never a blocker at any point. iOS tasks sit in Week 1 task 9.
+- ~~Funnel break~~ — **largely CLOSED Aug 16:** 5 completed orders prove app → 400050 address →
+  Razorpay → delivery works end to end. Still run the friend's-phone test (iPhone *and* Android,
+  never Adi's own — whitelisted) to catch a *partial* break: an address the gate wrongly rejects,
+  or a delivery-hours window that silently blocks ordering.
+- **Install→order rate** — the number that now matters most, and still uncomputable. Needed by
+  **Wed Aug 19**: it gates the Aug 20/21 paid-ads start under D2 (≥15% → go, <15% → hold).
 - **Associate JD** — was due Aug 10, still unposted; must go up Mon Aug 17 or the Sep 1 hire slips.
 - **Smart link** (Branch.io, routes to Play/App Store by device) — asked of Rohit Aug 15; blocks
   the flyer print order.
