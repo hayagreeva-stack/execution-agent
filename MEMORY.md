@@ -48,10 +48,17 @@ follow-ups Adi raised that aren't yet resolved in the plan doc)
 
 **Launch slipped to Aug 13, 2026** (from Aug 1) — **Android AND iOS shipped the same day**; the
 "iOS lagged by 10 days" assumption was wrong and is corrected throughout the plan (Aug 16).
-**As of Aug 16: 5 orders** (up from 0 on Aug 15), all from WhatsApp groups + Adi's building +
-friends & family, all unattributed because promo codes still don't exist. Plan re-baselined in
+**As of Aug 16: 40 installs, 2 real customer orders, ₹720 GMV, ₹360 AOV** — from the building
+WhatsApp group + friends, unattributed (no promo codes yet). **3 further "orders" were placed by
+Adi himself**; a standing rule now excludes founder/team self-orders from every metric.
+**Install→order = 5.0% vs 20% bear / 15% floor → paid ads HELD**, Aug 20 Meta launch does not go
+ahead (D2). The problem is conversion, not traffic — installs are on pace. Plan re-baselined in
 section C0 — August compressed (not shifted), targets cut to 245 installs / 67 orders /
-₹34,000 GMV, Part D kill rules suspended for August except D2.
+₹34,000 GMV and **held despite the miss**, Part D kill rules suspended for August except D2.
+
+**Associate hire (₹1L, Sep 1) — Adi is reconsidering it entirely** (Aug 16, JD still unposted).
+Recorded as an open founder decision; recommendation was to defer to the Aug 31 close. Budget line
+held, not cancelled.
 
 Re-baseline lives in PR #2 (`claude/app-launch-no-orders-dw84en`, draft, open — no CI on this repo).
 
@@ -64,8 +71,13 @@ Open questions awaiting Adi's answer (he should report these back):
   Razorpay → delivery works end to end. Still run the friend's-phone test (iPhone *and* Android,
   never Adi's own — whitelisted) to catch a *partial* break: an address the gate wrongly rejects,
   or a delivery-hours window that silently blocks ordering.
-- **Install→order rate** — the number that now matters most, and still uncomputable. Needed by
-  **Wed Aug 19**: it gates the Aug 20/21 paid-ads start under D2 (≥15% → go, <15% → hold).
+- ~~Install→order rate~~ — **ANSWERED Aug 16: 5.0%.** Ads held. Re-check Wed Aug 19.
+- **Android/iOS install split** — 40 was reported as one combined number; the plan needs two.
+- **Why the other ~38 installers didn't order** — the top open question in the whole plan now.
+- **Associate: hire, drop, or defer?** — Adi's call, parked to the Aug 31 close.
+- **Counting rule (Aug 16):** never let Adi's own orders into a metric. He reported 5 orders and
+  3 were his; taking that at face value would have shown 12.5% conversion instead of 5%. Ask
+  "how many of those were yours?" whenever he reports order counts.
 - **Associate JD** — was due Aug 10, still unposted; must go up Mon Aug 17 or the Sep 1 hire slips.
 - **Smart link** (Branch.io, routes to Play/App Store by device) — asked of Rohit Aug 15; blocks
   the flyer print order.
